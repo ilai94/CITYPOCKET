@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- /**
+ * Autori : Merola Sabrina, Pafundi Vincenzo, Russo Debora, Tecchia Elisabetta
+ * Esame : Programmazione I
+ * Facoltà : Ingegneria Informatica Federico II Napoli
+ * Data : 21/05/2015
+ * Nome File: CITYPOCKET/color.xml
+ * Versione : 1.0
+ */-->
+<resources>
+    <color name="nero">#000000</color>
+    <color name="sfondo">#2196F3</color>
+    <color name="bottoni">#FF5722</color>
+</resources>

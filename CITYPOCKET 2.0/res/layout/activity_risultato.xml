@@ -1,0 +1,48 @@
+<!-- /**
+ * Autori : Merola Sabrina, Pafundi Vincenzo, Russo Debora, Tecchia Elisabetta
+ * Esame : Programmazione I
+ * Facoltà : Ingegneria Informatica Federico II Napoli
+ * Data : 21/05/2015
+ * Nome File: CITYPOCKET/activiti_risultato.xml
+ * Versione : 1.0
+ */-->
+
+
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sfondo"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ds.example.prova.RisultatoActivity" >
+    
+    <TextView
+        android:id="@+id/txtRisultato"
+        style="android:textViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:text="@string/risultato"
+        android:textColor="@color/nero"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+      <ListView
+        android:id="@+id/ListaRisultato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:textColor="@color/nero"
+        android:textSize="20sp" >
+    </ListView>
+    
+    </LinearLayout>

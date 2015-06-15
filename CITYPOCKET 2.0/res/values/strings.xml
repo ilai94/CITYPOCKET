@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!-- /**
+ * Autori : Merola Sabrina, Pafundi Vincenzo, Russo Debora, Tecchia Elisabetta
+ * Esame : Programmazione I
+ * Facoltà : Ingegneria Informatica Federico II Napoli
+ * Data : 21/05/2015
+ * Nome File: CITYPOCKET/strings.xml
+ * Versione : 1.0
+ */-->
+
+
+<resources>
+
+    <string name="app_name">CITYPOCKET</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome">BENVENUTO IN CITYPOCKET</string>
+    <string name="hello">Hello!</string>
+    <string name="regione">SCEGLI LA REGIONE:</string>
+    <string name="comune">SCEGLI IL COMUNE:</string>
+    <string name="categoria">SCEGLI LA CATEGORIA:</string>
+    <string name="turista">SEI UN TURISTA?</string>
+	<string name="salta">SALTA</string>
+	<string name="si">SI</string>
+	<string name="no">NO</string>
+	<string name="risultato">ECCO LE APP DISPONIBILI:</string>
+	<string name="risultatoturista">ECCO LE APP PER TURISTI:</string>
+	<string name="comuni_nella_regione">comuni nella regione.</string>
+	<string name="ci_sono">Ci sono</string>
+	<string name="_tot_">&lt;TOT></string>
+	<string name="nome_regione">&lt;nome regione></string>
+	<string name="nome_categoria">&lt;nome categoria></string>
+	</resources>

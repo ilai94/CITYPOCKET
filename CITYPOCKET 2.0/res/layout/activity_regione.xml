@@ -1,0 +1,60 @@
+<!-- /**
+ * Autori : Merola Sabrina, Pafundi Vincenzo, Russo Debora, Tecchia Elisabetta
+ * Esame : Programmazione I
+ * Facoltà : Ingegneria Informatica Federico II Napoli
+ * Data : 21/05/2015
+ * Nome File: CITYPOCKET/activiti_regione.xml
+ * Versione : 1.0
+ */-->
+
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/comune"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sfondo"
+    android:gravity="top|center_vertical"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ds.example.prova.RegioneActivity" >
+
+    <TextView
+        android:id="@+id/txtRegioni"
+        style="android:textViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:text="@string/regione"
+        android:textColor="@color/nero"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/saltaACategoria"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:background="@drawable/stilebottone"
+        android:onClick="saltaACategoria"
+        android:text="@string/salta" />
+
+    <ListView
+        android:id="@+id/ListaRegioni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:clickable="true"
+        android:textColor="@color/nero"
+        android:textSize="20sp" >
+    </ListView>
+
+</LinearLayout>

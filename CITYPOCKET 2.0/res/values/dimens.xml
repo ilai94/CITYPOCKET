@@ -1,0 +1,18 @@
+<!-- /**
+ * Autori : Merola Sabrina, Pafundi Vincenzo, Russo Debora, Tecchia Elisabetta
+ * Esame : Programmazione I
+ * Facoltà : Ingegneria Informatica Federico II Napoli
+ * Data : 21/05/2015
+ * Nome File: CITYPOCKET/dimens.xml
+ * Versione : 1.0
+ */-->
+
+
+
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+</resources>
