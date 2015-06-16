@@ -26,7 +26,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.activity.MainActivity"
+            android:name="com.citypocket.activity.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -35,7 +35,7 @@
         </activity>
         
         <activity
-            android:name="com.example.activity.RegioneActivity"
+            android:name="com.citypocket.activity.RegioneActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.RegioneActivity"/>
@@ -44,7 +44,7 @@
         </activity>
         
         <activity
-            android:name="com.example.activity.TuristaActivity"
+            android:name="com.citypocket.activity.TuristaActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.TuristaActivity"/>
@@ -52,7 +52,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.activity.ComuneActivity"
+            android:name="com.citypocket.activity.ComuneActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.ComuneActivity"/>
@@ -60,7 +60,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.activity.CategoriaActivity"
+            android:name="com.citypocket.activity.CategoriaActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.CategoriaActivity"/>
@@ -68,7 +68,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.activity.RisultatoActivity"
+            android:name="com.citypocket.activity.RisultatoActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.RisultatoActivity"/>
