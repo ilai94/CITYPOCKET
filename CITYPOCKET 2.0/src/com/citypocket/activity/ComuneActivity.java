@@ -12,7 +12,7 @@ package com.citypocket.activity;
 
 
 import com.citypocket.R;
-import com.citypocket.collegamento_database.UserDataAsync;
+
 import com.citypocket.interazione.DataRecoveryRegione;
 
 import android.app.Activity;
@@ -34,17 +34,12 @@ public class ComuneActivity  extends Activity{
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_comune);
-		getUserData(); //Recupero dei dati utente
+		
 		listview1 = (ListView)findViewById(R.id.ListaComuni);
 		DataRecoveryRegione.Data(this).execute();	
   }
 	
-	private void getUserData()
-	{
-		UserDataAsync u = new UserDataAsync(this);
-		u.execute();
-		
-	}
+	
 
 	
 

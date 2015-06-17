@@ -11,7 +11,6 @@
 package com.citypocket.activity;
 
 import com.citypocket.R;
-import com.citypocket.collegamento_database.UserDataAsync;
 import com.citypocket.interazione.DataRecoveryRegione;
 
 import android.app.Activity;
@@ -33,7 +32,6 @@ public class RegioneActivity  extends Activity{
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_regione);
-		getUserData(); //Recupero dei dati utente
 		listview1 = (ListView)findViewById(R.id.ListaRegioni);
 		DataRecoveryRegione.Data(this).execute();
   }
@@ -60,11 +58,6 @@ public class RegioneActivity  extends Activity{
 	public void saltaACategoria(View view){
 		startActivity(new Intent("android.intent.action.CategoriaActivity"));
 	}
-	private void getUserData()
-	{
-		UserDataAsync u = new UserDataAsync(this);
-		u.execute();
-		
-	}
+	
 	
 }

@@ -120,7 +120,7 @@ public class DataRecoveryRegione extends AsyncTask<String,Void,String> {
 	 try{
 	 Regioni = null;
 	 Statement stmt = connection.createStatement();
-	 String sql = "select distinct Regione from (localita)";
+	 String sql = "select distinct Regione from (localita) ORDER BY Regione ASC";
 	 Regioni = stmt.executeQuery(sql);
 	 Regione_data= new Regione[numRegioni()];
 	 int i=0;

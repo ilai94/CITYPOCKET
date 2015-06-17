@@ -22,8 +22,8 @@
         android:bottom="3dp" />
      					 
  <gradient  
-     android:startColor="#ff5722"  
-     android:endColor="#ff5722"  
+     android:startColor="#ffffa2"  
+     android:endColor="#ffffa2"  
      android:type="radial"  
      android:gradientRadius="500dp"/>  
 </shape>

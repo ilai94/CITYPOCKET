@@ -14,7 +14,6 @@ package com.citypocket.activity;
 
 
 import com.citypocket.R;
-import com.citypocket.collegamento_database.UserDataAsync;
 import com.citypocket.interazione.DataRecoveryRegione;
 
 import android.os.Bundle;
@@ -34,7 +33,6 @@ public class RisultatoTuristaActivity extends ActionBarActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_risultato_turista);
-		getUserData(); //Recupero dei dati utente
 		listview1 = (ListView)findViewById(R.id.ListaRisultatoTurista);
 		DataRecoveryRegione.Data(this).execute();	
   }
@@ -57,11 +55,6 @@ public class RisultatoTuristaActivity extends ActionBarActivity {
 		}
 		return super.onOptionsItemSelected(item);
 	}
-	private void getUserData()
-	{
-		UserDataAsync u = new UserDataAsync(this);
-		u.execute();
-		
-	}
+	
 
 }

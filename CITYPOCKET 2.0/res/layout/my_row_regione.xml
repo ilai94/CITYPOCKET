@@ -11,16 +11,6 @@
         android:layout_marginTop="20dp" >
 	</RelativeLayout>
 
-            <TextView
-                android:id="@+id/nome_regione"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:layout_below="@+id/relativeLayout12"
-                android:text="@string/nome_regione"
-                android:textSize="15sp" />
-
             <RelativeLayout
                 android:id="@+id/relativeLayout7"
                 android:layout_width="match_parent"
@@ -31,12 +21,24 @@
                 android:layout_marginTop="21dp" >
 
                 <TextView
+                    android:id="@+id/n_comuni"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="28dp"
+                    android:layout_toEndOf="@+id/textView10"
+                    android:layout_toRightOf="@+id/textView10"
+                    android:text="@string/_tot_"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <TextView
                     android:id="@+id/textView10"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true"
                     android:text="@string/ci_sono"
                     android:textSize="13sp" />
 
@@ -44,25 +46,25 @@
                     android:id="@+id/textView12"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginLeft="2dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="24dp"
                     android:layout_marginStart="2dp"
                     android:layout_toEndOf="@+id/n_comuni"
                     android:layout_toRightOf="@+id/n_comuni"
                     android:text="@string/comuni_nella_regione"
                     android:textSize="13sp" />
 
-                <TextView
-                    android:id="@+id/n_comuni"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_toEndOf="@+id/textView10"
-                    android:layout_toRightOf="@+id/textView10"
-                    android:text="@string/_tot_"
-                    android:textSize="13sp"
-                    android:textStyle="bold" />
             </RelativeLayout>
+
+            <TextView
+                android:id="@+id/nome_regione"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/relativeLayout12"
+                android:text="@string/nome_regione"
+                android:textSize="15sp" />
        
 </RelativeLayout>
  

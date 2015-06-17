@@ -1935,21 +1935,21 @@ containing a value of this type.
         public static final int listMode=0x7f09001c;
         public static final int list_item=0x7f090036;
         public static final int middle=0x7f09002e;
-        public static final int n_comuni=0x7f090068;
+        public static final int n_comuni=0x7f090065;
         public static final int never=0x7f090029;
         public static final int no=0x7f090060;
         public static final int nome_app_risultato=0x7f090069;
         public static final int nome_app_turista_risultato=0x7f09006a;
         public static final int nome_categoria=0x7f090061;
         public static final int nome_comune=0x7f090062;
-        public static final int nome_regione=0x7f090064;
+        public static final int nome_regione=0x7f090068;
         public static final int none=0x7f090021;
         public static final int normal=0x7f09001d;
         public static final int progress_circular=0x7f090007;
         public static final int progress_horizontal=0x7f090008;
         public static final int radio=0x7f09003c;
         public static final int relativeLayout12=0x7f090063;
-        public static final int relativeLayout7=0x7f090065;
+        public static final int relativeLayout7=0x7f090064;
         public static final int right=0x7f090018;
         public static final int saltaACategoria=0x7f090058;
         public static final int saltaATurista=0x7f090056;
@@ -2512,35 +2512,35 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background com.example.provacondatabase:background}</code></td><td> Specifies a background drawable for the action bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit com.example.provacondatabase:backgroundSplit}</code></td><td> Specifies a background drawable for the bottom component of a split action bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked com.example.provacondatabase:backgroundStacked}</code></td><td> Specifies a background drawable for a second stacked row of the action bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEnd com.example.provacondatabase:contentInsetEnd}</code></td><td> Minimum inset for content views within a bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetLeft com.example.provacondatabase:contentInsetLeft}</code></td><td> Minimum inset for content views within a bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetRight com.example.provacondatabase:contentInsetRight}</code></td><td> Minimum inset for content views within a bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStart com.example.provacondatabase:contentInsetStart}</code></td><td> Minimum inset for content views within a bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout com.example.provacondatabase:customNavigationLayout}</code></td><td> Specifies a layout for custom navigation.</td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions com.example.provacondatabase:displayOptions}</code></td><td> Options affecting how the action bar is displayed.</td></tr>
-           <tr><td><code>{@link #ActionBar_divider com.example.provacondatabase:divider}</code></td><td> Specifies the drawable used for item dividers.</td></tr>
-           <tr><td><code>{@link #ActionBar_elevation com.example.provacondatabase:elevation}</code></td><td> Elevation for the action bar itself </td></tr>
-           <tr><td><code>{@link #ActionBar_height com.example.provacondatabase:height}</code></td><td> Specifies a fixed height.</td></tr>
-           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.example.provacondatabase:hideOnContentScroll}</code></td><td> Set true to hide the action bar on a vertical nested scroll of content.</td></tr>
-           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.example.provacondatabase:homeAsUpIndicator}</code></td><td> Up navigation glyph </td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout com.example.provacondatabase:homeLayout}</code></td><td> Specifies a layout to use for the "home" section of the action bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_icon com.example.provacondatabase:icon}</code></td><td> Specifies the drawable used for the application icon.</td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.example.provacondatabase:indeterminateProgressStyle}</code></td><td> Specifies a style resource to use for an indeterminate progress spinner.</td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding com.example.provacondatabase:itemPadding}</code></td><td> Specifies padding that should be applied to the left and right sides of
+           <tr><td><code>{@link #ActionBar_background com.citypocket:background}</code></td><td> Specifies a background drawable for the action bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit com.citypocket:backgroundSplit}</code></td><td> Specifies a background drawable for the bottom component of a split action bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked com.citypocket:backgroundStacked}</code></td><td> Specifies a background drawable for a second stacked row of the action bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEnd com.citypocket:contentInsetEnd}</code></td><td> Minimum inset for content views within a bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetLeft com.citypocket:contentInsetLeft}</code></td><td> Minimum inset for content views within a bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetRight com.citypocket:contentInsetRight}</code></td><td> Minimum inset for content views within a bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStart com.citypocket:contentInsetStart}</code></td><td> Minimum inset for content views within a bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout com.citypocket:customNavigationLayout}</code></td><td> Specifies a layout for custom navigation.</td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions com.citypocket:displayOptions}</code></td><td> Options affecting how the action bar is displayed.</td></tr>
+           <tr><td><code>{@link #ActionBar_divider com.citypocket:divider}</code></td><td> Specifies the drawable used for item dividers.</td></tr>
+           <tr><td><code>{@link #ActionBar_elevation com.citypocket:elevation}</code></td><td> Elevation for the action bar itself </td></tr>
+           <tr><td><code>{@link #ActionBar_height com.citypocket:height}</code></td><td> Specifies a fixed height.</td></tr>
+           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.citypocket:hideOnContentScroll}</code></td><td> Set true to hide the action bar on a vertical nested scroll of content.</td></tr>
+           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.citypocket:homeAsUpIndicator}</code></td><td> Up navigation glyph </td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout com.citypocket:homeLayout}</code></td><td> Specifies a layout to use for the "home" section of the action bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_icon com.citypocket:icon}</code></td><td> Specifies the drawable used for the application icon.</td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.citypocket:indeterminateProgressStyle}</code></td><td> Specifies a style resource to use for an indeterminate progress spinner.</td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding com.citypocket:itemPadding}</code></td><td> Specifies padding that should be applied to the left and right sides of
              system-provided items in the bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_logo com.example.provacondatabase:logo}</code></td><td> Specifies the drawable used for the application logo.</td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode com.example.provacondatabase:navigationMode}</code></td><td> The type of navigation to use.</td></tr>
-           <tr><td><code>{@link #ActionBar_popupTheme com.example.provacondatabase:popupTheme}</code></td><td> Reference to a theme that should be used to inflate popups
+           <tr><td><code>{@link #ActionBar_logo com.citypocket:logo}</code></td><td> Specifies the drawable used for the application logo.</td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode com.citypocket:navigationMode}</code></td><td> The type of navigation to use.</td></tr>
+           <tr><td><code>{@link #ActionBar_popupTheme com.citypocket:popupTheme}</code></td><td> Reference to a theme that should be used to inflate popups
              shown by widgets in the action bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding com.example.provacondatabase:progressBarPadding}</code></td><td> Specifies the horizontal padding on either end for an embedded progress bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle com.example.provacondatabase:progressBarStyle}</code></td><td> Specifies a style resource to use for an embedded progress bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle com.example.provacondatabase:subtitle}</code></td><td> Specifies subtitle text used for navigationMode="normal" </td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.example.provacondatabase:subtitleTextStyle}</code></td><td> Specifies a style to use for subtitle text.</td></tr>
-           <tr><td><code>{@link #ActionBar_title com.example.provacondatabase:title}</code></td><td> Specifies title text used for navigationMode="normal" </td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle com.example.provacondatabase:titleTextStyle}</code></td><td> Specifies a style to use for title text.</td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding com.citypocket:progressBarPadding}</code></td><td> Specifies the horizontal padding on either end for an embedded progress bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle com.citypocket:progressBarStyle}</code></td><td> Specifies a style resource to use for an embedded progress bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle com.citypocket:subtitle}</code></td><td> Specifies subtitle text used for navigationMode="normal" </td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.citypocket:subtitleTextStyle}</code></td><td> Specifies a style to use for subtitle text.</td></tr>
+           <tr><td><code>{@link #ActionBar_title com.citypocket:title}</code></td><td> Specifies title text used for navigationMode="normal" </td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle com.citypocket:titleTextStyle}</code></td><td> Specifies a style to use for title text.</td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -2588,7 +2588,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:background
+          @attr name com.citypocket:background
         */
         public static final int ActionBar_background = 11;
         /**
@@ -2602,7 +2602,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:backgroundSplit
+          @attr name com.citypocket:backgroundSplit
         */
         public static final int ActionBar_backgroundSplit = 13;
         /**
@@ -2616,7 +2616,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:backgroundStacked
+          @attr name com.citypocket:backgroundStacked
         */
         public static final int ActionBar_backgroundStacked = 12;
         /**
@@ -2635,7 +2635,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:contentInsetEnd
+          @attr name com.citypocket:contentInsetEnd
         */
         public static final int ActionBar_contentInsetEnd = 22;
         /**
@@ -2654,7 +2654,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:contentInsetLeft
+          @attr name com.citypocket:contentInsetLeft
         */
         public static final int ActionBar_contentInsetLeft = 23;
         /**
@@ -2673,7 +2673,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:contentInsetRight
+          @attr name com.citypocket:contentInsetRight
         */
         public static final int ActionBar_contentInsetRight = 24;
         /**
@@ -2692,7 +2692,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:contentInsetStart
+          @attr name com.citypocket:contentInsetStart
         */
         public static final int ActionBar_contentInsetStart = 21;
         /**
@@ -2704,7 +2704,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:customNavigationLayout
+          @attr name com.citypocket:customNavigationLayout
         */
         public static final int ActionBar_customNavigationLayout = 14;
         /**
@@ -2728,7 +2728,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:displayOptions
+          @attr name com.citypocket:displayOptions
         */
         public static final int ActionBar_displayOptions = 4;
         /**
@@ -2740,7 +2740,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:divider
+          @attr name com.citypocket:divider
         */
         public static final int ActionBar_divider = 10;
         /**
@@ -2758,7 +2758,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:elevation
+          @attr name com.citypocket:elevation
         */
         public static final int ActionBar_elevation = 25;
         /**
@@ -2776,7 +2776,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:height
+          @attr name com.citypocket:height
         */
         public static final int ActionBar_height = 1;
         /**
@@ -2792,7 +2792,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:hideOnContentScroll
+          @attr name com.citypocket:hideOnContentScroll
         */
         public static final int ActionBar_hideOnContentScroll = 20;
         /**
@@ -2804,7 +2804,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:homeAsUpIndicator
+          @attr name com.citypocket:homeAsUpIndicator
         */
         public static final int ActionBar_homeAsUpIndicator = 2;
         /**
@@ -2816,7 +2816,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:homeLayout
+          @attr name com.citypocket:homeLayout
         */
         public static final int ActionBar_homeLayout = 15;
         /**
@@ -2828,7 +2828,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:icon
+          @attr name com.citypocket:icon
         */
         public static final int ActionBar_icon = 8;
         /**
@@ -2840,7 +2840,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:indeterminateProgressStyle
+          @attr name com.citypocket:indeterminateProgressStyle
         */
         public static final int ActionBar_indeterminateProgressStyle = 17;
         /**
@@ -2859,7 +2859,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:itemPadding
+          @attr name com.citypocket:itemPadding
         */
         public static final int ActionBar_itemPadding = 19;
         /**
@@ -2871,7 +2871,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:logo
+          @attr name com.citypocket:logo
         */
         public static final int ActionBar_logo = 9;
         /**
@@ -2891,7 +2891,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>tabMode</code></td><td>2</td><td> The action bar will use a series of horizontal tabs for navigation. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:navigationMode
+          @attr name com.citypocket:navigationMode
         */
         public static final int ActionBar_navigationMode = 3;
         /**
@@ -2904,7 +2904,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:popupTheme
+          @attr name com.citypocket:popupTheme
         */
         public static final int ActionBar_popupTheme = 26;
         /**
@@ -2922,7 +2922,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:progressBarPadding
+          @attr name com.citypocket:progressBarPadding
         */
         public static final int ActionBar_progressBarPadding = 18;
         /**
@@ -2934,7 +2934,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:progressBarStyle
+          @attr name com.citypocket:progressBarStyle
         */
         public static final int ActionBar_progressBarStyle = 16;
         /**
@@ -2950,7 +2950,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:subtitle
+          @attr name com.citypocket:subtitle
         */
         public static final int ActionBar_subtitle = 5;
         /**
@@ -2962,7 +2962,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:subtitleTextStyle
+          @attr name com.citypocket:subtitleTextStyle
         */
         public static final int ActionBar_subtitleTextStyle = 7;
         /**
@@ -2978,7 +2978,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:title
+          @attr name com.citypocket:title
         */
         public static final int ActionBar_title = 0;
         /**
@@ -2990,7 +2990,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:titleTextStyle
+          @attr name com.citypocket:titleTextStyle
         */
         public static final int ActionBar_titleTextStyle = 6;
         /**  Valid LayoutParams for views placed in the action bar as custom views. 
@@ -3042,12 +3042,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background com.example.provacondatabase:background}</code></td><td> Specifies a background for the action mode bar.</td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit com.example.provacondatabase:backgroundSplit}</code></td><td> Specifies a background for the split action mode bar.</td></tr>
-           <tr><td><code>{@link #ActionMode_closeItemLayout com.example.provacondatabase:closeItemLayout}</code></td><td> Specifies a layout to use for the "close" item at the starting edge.</td></tr>
-           <tr><td><code>{@link #ActionMode_height com.example.provacondatabase:height}</code></td><td> Specifies a fixed height for the action mode bar.</td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.example.provacondatabase:subtitleTextStyle}</code></td><td> Specifies a style to use for subtitle text.</td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle com.example.provacondatabase:titleTextStyle}</code></td><td> Specifies a style to use for title text.</td></tr>
+           <tr><td><code>{@link #ActionMode_background com.citypocket:background}</code></td><td> Specifies a background for the action mode bar.</td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit com.citypocket:backgroundSplit}</code></td><td> Specifies a background for the split action mode bar.</td></tr>
+           <tr><td><code>{@link #ActionMode_closeItemLayout com.citypocket:closeItemLayout}</code></td><td> Specifies a layout to use for the "close" item at the starting edge.</td></tr>
+           <tr><td><code>{@link #ActionMode_height com.citypocket:height}</code></td><td> Specifies a fixed height for the action mode bar.</td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.citypocket:subtitleTextStyle}</code></td><td> Specifies a style to use for subtitle text.</td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle com.citypocket:titleTextStyle}</code></td><td> Specifies a style to use for title text.</td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -3069,7 +3069,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:background
+          @attr name com.citypocket:background
         */
         public static final int ActionMode_background = 3;
         /**
@@ -3083,7 +3083,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:backgroundSplit
+          @attr name com.citypocket:backgroundSplit
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
@@ -3095,7 +3095,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:closeItemLayout
+          @attr name com.citypocket:closeItemLayout
         */
         public static final int ActionMode_closeItemLayout = 5;
         /**
@@ -3113,7 +3113,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:height
+          @attr name com.citypocket:height
         */
         public static final int ActionMode_height = 0;
         /**
@@ -3125,7 +3125,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:subtitleTextStyle
+          @attr name com.citypocket:subtitleTextStyle
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
@@ -3137,7 +3137,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:titleTextStyle
+          @attr name com.citypocket:titleTextStyle
         */
         public static final int ActionMode_titleTextStyle = 1;
         /**  Attrbitutes for a ActivityChooserView. 
@@ -3146,8 +3146,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.example.provacondatabase:expandActivityOverflowButtonDrawable}</code></td><td> The drawable to show in the button for expanding the activities overflow popup.</td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.example.provacondatabase:initialActivityCount}</code></td><td> The maximal number of items initially shown in the activity list.</td></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.citypocket:expandActivityOverflowButtonDrawable}</code></td><td> The drawable to show in the button for expanding the activities overflow popup.</td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.citypocket:initialActivityCount}</code></td><td> The maximal number of items initially shown in the activity list.</td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
@@ -3169,7 +3169,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:expandActivityOverflowButtonDrawable
+          @attr name com.citypocket:expandActivityOverflowButtonDrawable
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
@@ -3185,7 +3185,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:initialActivityCount
+          @attr name com.citypocket:initialActivityCount
         */
         public static final int ActivityChooserView_initialActivityCount = 0;
         /** Attributes that can be used with a CompatTextView.
@@ -3194,7 +3194,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CompatTextView_textAllCaps com.example.provacondatabase:textAllCaps}</code></td><td> Present the text in ALL CAPS.</td></tr>
+           <tr><td><code>{@link #CompatTextView_textAllCaps com.citypocket:textAllCaps}</code></td><td> Present the text in ALL CAPS.</td></tr>
            </table>
            @see #CompatTextView_textAllCaps
          */
@@ -3211,7 +3211,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:textAllCaps
+          @attr name com.citypocket:textAllCaps
         */
         public static final int CompatTextView_textAllCaps = 0;
         /** Attributes that can be used with a DrawerArrowToggle.
@@ -3220,14 +3220,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_barSize com.example.provacondatabase:barSize}</code></td><td> The size of the bars when they are parallel to each other </td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_color com.example.provacondatabase:color}</code></td><td> The drawing color for the bars </td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.example.provacondatabase:drawableSize}</code></td><td> The total size of the drawable </td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.example.provacondatabase:gapBetweenBars}</code></td><td> The max gap between the bars when they are parallel to each other </td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_middleBarArrowSize com.example.provacondatabase:middleBarArrowSize}</code></td><td> The size of the middle bar when top and bottom bars merge into middle bar to form an arrow </td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.example.provacondatabase:spinBars}</code></td><td> Whether bars should rotate or not during transition </td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_thickness com.example.provacondatabase:thickness}</code></td><td> The thickness (stroke size) for the bar paint </td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_topBottomBarArrowSize com.example.provacondatabase:topBottomBarArrowSize}</code></td><td> The size of the top and bottom bars when they merge to the middle bar to form an arrow </td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_barSize com.citypocket:barSize}</code></td><td> The size of the bars when they are parallel to each other </td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_color com.citypocket:color}</code></td><td> The drawing color for the bars </td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.citypocket:drawableSize}</code></td><td> The total size of the drawable </td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.citypocket:gapBetweenBars}</code></td><td> The max gap between the bars when they are parallel to each other </td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_middleBarArrowSize com.citypocket:middleBarArrowSize}</code></td><td> The size of the middle bar when top and bottom bars merge into middle bar to form an arrow </td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.citypocket:spinBars}</code></td><td> Whether bars should rotate or not during transition </td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_thickness com.citypocket:thickness}</code></td><td> The thickness (stroke size) for the bar paint </td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_topBottomBarArrowSize com.citypocket:topBottomBarArrowSize}</code></td><td> The size of the top and bottom bars when they merge to the middle bar to form an arrow </td></tr>
            </table>
            @see #DrawerArrowToggle_barSize
            @see #DrawerArrowToggle_color
@@ -3257,7 +3257,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:barSize
+          @attr name com.citypocket:barSize
         */
         public static final int DrawerArrowToggle_barSize = 6;
         /**
@@ -3274,7 +3274,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:color
+          @attr name com.citypocket:color
         */
         public static final int DrawerArrowToggle_color = 0;
         /**
@@ -3292,7 +3292,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:drawableSize
+          @attr name com.citypocket:drawableSize
         */
         public static final int DrawerArrowToggle_drawableSize = 2;
         /**
@@ -3310,7 +3310,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:gapBetweenBars
+          @attr name com.citypocket:gapBetweenBars
         */
         public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
@@ -3328,7 +3328,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:middleBarArrowSize
+          @attr name com.citypocket:middleBarArrowSize
         */
         public static final int DrawerArrowToggle_middleBarArrowSize = 5;
         /**
@@ -3344,7 +3344,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:spinBars
+          @attr name com.citypocket:spinBars
         */
         public static final int DrawerArrowToggle_spinBars = 1;
         /**
@@ -3362,7 +3362,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:thickness
+          @attr name com.citypocket:thickness
         */
         public static final int DrawerArrowToggle_thickness = 7;
         /**
@@ -3380,7 +3380,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:topBottomBarArrowSize
+          @attr name com.citypocket:topBottomBarArrowSize
         */
         public static final int DrawerArrowToggle_topBottomBarArrowSize = 4;
         /** Attributes that can be used with a GridLayout.
@@ -3389,20 +3389,20 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #GridLayout_alignmentMode com.example.provacondatabase:alignmentMode}</code></td><td>
+           <tr><td><code>{@link #GridLayout_alignmentMode com.citypocket:alignmentMode}</code></td><td>
         When set to alignMargins, causes alignment to take place between the outer
         boundary of a view, as defined by its margins.</td></tr>
-           <tr><td><code>{@link #GridLayout_columnCount com.example.provacondatabase:columnCount}</code></td><td> The maximum number of columns to create when automatically positioning children.</td></tr>
-           <tr><td><code>{@link #GridLayout_columnOrderPreserved com.example.provacondatabase:columnOrderPreserved}</code></td><td>
+           <tr><td><code>{@link #GridLayout_columnCount com.citypocket:columnCount}</code></td><td> The maximum number of columns to create when automatically positioning children.</td></tr>
+           <tr><td><code>{@link #GridLayout_columnOrderPreserved com.citypocket:columnOrderPreserved}</code></td><td>
         When set to true, forces column boundaries to appear in the same order
         as column indices.</td></tr>
-           <tr><td><code>{@link #GridLayout_orientation com.example.provacondatabase:orientation}</code></td><td>
+           <tr><td><code>{@link #GridLayout_orientation com.citypocket:orientation}</code></td><td>
               support versions.</td></tr>
-           <tr><td><code>{@link #GridLayout_rowCount com.example.provacondatabase:rowCount}</code></td><td> The maximum number of rows to create when automatically positioning children.</td></tr>
-           <tr><td><code>{@link #GridLayout_rowOrderPreserved com.example.provacondatabase:rowOrderPreserved}</code></td><td>
+           <tr><td><code>{@link #GridLayout_rowCount com.citypocket:rowCount}</code></td><td> The maximum number of rows to create when automatically positioning children.</td></tr>
+           <tr><td><code>{@link #GridLayout_rowOrderPreserved com.citypocket:rowOrderPreserved}</code></td><td>
         When set to true, forces row boundaries to appear in the same order
         as row indices.</td></tr>
-           <tr><td><code>{@link #GridLayout_useDefaultMargins com.example.provacondatabase:useDefaultMargins}</code></td><td>
+           <tr><td><code>{@link #GridLayout_useDefaultMargins com.citypocket:useDefaultMargins}</code></td><td>
         When set to true, tells GridLayout to use default margins when none are specified
         in a view's layout parameters.</td></tr>
            </table>
@@ -3446,7 +3446,7 @@ containing a value of this type.
             </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:alignmentMode
+          @attr name com.citypocket:alignmentMode
         */
         public static final int GridLayout_alignmentMode = 4;
         /**
@@ -3462,7 +3462,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:columnCount
+          @attr name com.citypocket:columnCount
         */
         public static final int GridLayout_columnCount = 2;
         /**
@@ -3483,7 +3483,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:columnOrderPreserved
+          @attr name com.citypocket:columnOrderPreserved
         */
         public static final int GridLayout_columnOrderPreserved = 6;
         /**
@@ -3515,7 +3515,7 @@ containing a value of this type.
 <tr><td><code>vertical</code></td><td>1</td><td> Defines a vertical widget. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:orientation
+          @attr name com.citypocket:orientation
         */
         public static final int GridLayout_orientation = 0;
         /**
@@ -3531,7 +3531,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:rowCount
+          @attr name com.citypocket:rowCount
         */
         public static final int GridLayout_rowCount = 1;
         /**
@@ -3552,7 +3552,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:rowOrderPreserved
+          @attr name com.citypocket:rowOrderPreserved
         */
         public static final int GridLayout_rowOrderPreserved = 5;
         /**
@@ -3573,7 +3573,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:useDefaultMargins
+          @attr name com.citypocket:useDefaultMargins
         */
         public static final int GridLayout_useDefaultMargins = 3;
         /** Attributes that can be used with a GridLayout_Layout.
@@ -3596,24 +3596,24 @@ containing a value of this type.
               Specifies extra space on the top side of this view.</td></tr>
            <tr><td><code>{@link #GridLayout_Layout_android_layout_width android:layout_width}</code></td><td>
               support versions.</td></tr>
-           <tr><td><code>{@link #GridLayout_Layout_layout_column com.example.provacondatabase:layout_column}</code></td><td>
+           <tr><td><code>{@link #GridLayout_Layout_layout_column com.citypocket:layout_column}</code></td><td>
         The column boundary delimiting the left of the group of cells
         occupied by this view.</td></tr>
-           <tr><td><code>{@link #GridLayout_Layout_layout_columnSpan com.example.provacondatabase:layout_columnSpan}</code></td><td>
+           <tr><td><code>{@link #GridLayout_Layout_layout_columnSpan com.citypocket:layout_columnSpan}</code></td><td>
         The column span: the difference between the right and left
         boundaries delimiting the group of cells occupied by this view.</td></tr>
-           <tr><td><code>{@link #GridLayout_Layout_layout_columnWeight com.example.provacondatabase:layout_columnWeight}</code></td><td> The relative proportion of horizontal space that should be allocated to this view
+           <tr><td><code>{@link #GridLayout_Layout_layout_columnWeight com.citypocket:layout_columnWeight}</code></td><td> The relative proportion of horizontal space that should be allocated to this view
         during excess space distribution.</td></tr>
-           <tr><td><code>{@link #GridLayout_Layout_layout_gravity com.example.provacondatabase:layout_gravity}</code></td><td>
+           <tr><td><code>{@link #GridLayout_Layout_layout_gravity com.citypocket:layout_gravity}</code></td><td>
         Gravity specifies how a component should be placed in its group of cells.</td></tr>
-           <tr><td><code>{@link #GridLayout_Layout_layout_row com.example.provacondatabase:layout_row}</code></td><td> END MarginLayout layoutparams 
+           <tr><td><code>{@link #GridLayout_Layout_layout_row com.citypocket:layout_row}</code></td><td> END MarginLayout layoutparams 
 
         The row boundary delimiting the top of the group of cells
         occupied by this view.</td></tr>
-           <tr><td><code>{@link #GridLayout_Layout_layout_rowSpan com.example.provacondatabase:layout_rowSpan}</code></td><td>
+           <tr><td><code>{@link #GridLayout_Layout_layout_rowSpan com.citypocket:layout_rowSpan}</code></td><td>
         The row span: the difference between the top and bottom
         boundaries delimiting the group of cells occupied by this view.</td></tr>
-           <tr><td><code>{@link #GridLayout_Layout_layout_rowWeight com.example.provacondatabase:layout_rowWeight}</code></td><td> The relative proportion of vertical space that should be allocated to this view
+           <tr><td><code>{@link #GridLayout_Layout_layout_rowWeight com.citypocket:layout_rowWeight}</code></td><td> The relative proportion of vertical space that should be allocated to this view
         during excess space distribution.</td></tr>
            </table>
            @see #GridLayout_Layout_android_layout_height
@@ -3732,7 +3732,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:layout_column
+          @attr name com.citypocket:layout_column
         */
         public static final int GridLayout_Layout_layout_column = 10;
         /**
@@ -3753,7 +3753,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:layout_columnSpan
+          @attr name com.citypocket:layout_columnSpan
         */
         public static final int GridLayout_Layout_layout_columnSpan = 11;
         /**
@@ -3770,7 +3770,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:layout_columnWeight
+          @attr name com.citypocket:layout_columnWeight
         */
         public static final int GridLayout_Layout_layout_columnWeight = 12;
         /**
@@ -3815,7 +3815,7 @@ containing a value of this type.
 <tr><td><code>end</code></td><td>0x00800005</td><td> Push object to the end of its container, not changing its size. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:layout_gravity
+          @attr name com.citypocket:layout_gravity
         */
         public static final int GridLayout_Layout_layout_gravity = 13;
         /**
@@ -3835,7 +3835,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:layout_row
+          @attr name com.citypocket:layout_row
         */
         public static final int GridLayout_Layout_layout_row = 7;
         /**
@@ -3856,7 +3856,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:layout_rowSpan
+          @attr name com.citypocket:layout_rowSpan
         */
         public static final int GridLayout_Layout_layout_rowSpan = 8;
         /**
@@ -3873,7 +3873,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:layout_rowWeight
+          @attr name com.citypocket:layout_rowWeight
         */
         public static final int GridLayout_Layout_layout_rowWeight = 9;
         /** Attributes that can be used with a LinearLayoutCompat.
@@ -3891,11 +3891,11 @@ containing a value of this type.
            <tr><td><code>{@link #LinearLayoutCompat_android_orientation android:orientation}</code></td><td> Should the layout be a column or a row?  Use "horizontal"
              for a row, "vertical" for a column.</td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td> Defines the maximum weight sum.</td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_divider com.example.provacondatabase:divider}</code></td><td> Drawable to use as a vertical divider between buttons.</td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.example.provacondatabase:dividerPadding}</code></td><td> Size of padding on either end of a divider.</td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.example.provacondatabase:measureWithLargestChild}</code></td><td> When set to true, all children with a weight will be considered having
+           <tr><td><code>{@link #LinearLayoutCompat_divider com.citypocket:divider}</code></td><td> Drawable to use as a vertical divider between buttons.</td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.citypocket:dividerPadding}</code></td><td> Size of padding on either end of a divider.</td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.citypocket:measureWithLargestChild}</code></td><td> When set to true, all children with a weight will be considered having
              the minimum size of the largest child.</td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.example.provacondatabase:showDividers}</code></td><td> Setting for which dividers to show.</td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.citypocket:showDividers}</code></td><td> Setting for which dividers to show.</td></tr>
            </table>
            @see #LinearLayoutCompat_android_baselineAligned
            @see #LinearLayoutCompat_android_baselineAlignedChildIndex
@@ -3973,7 +3973,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:divider
+          @attr name com.citypocket:divider
         */
         public static final int LinearLayoutCompat_divider = 5;
         /**
@@ -3991,7 +3991,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:dividerPadding
+          @attr name com.citypocket:dividerPadding
         */
         public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
@@ -4009,7 +4009,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:measureWithLargestChild
+          @attr name com.citypocket:measureWithLargestChild
         */
         public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
@@ -4030,7 +4030,7 @@ containing a value of this type.
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:showDividers
+          @attr name com.citypocket:showDividers
         */
         public static final int LinearLayoutCompat_showDividers = 7;
         /** Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -4195,10 +4195,10 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout com.example.provacondatabase:actionLayout}</code></td><td> An optional layout to be used as an action view.</td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass com.example.provacondatabase:actionProviderClass}</code></td><td> The name of an optional ActionProvider class to instantiate an action view
+           <tr><td><code>{@link #MenuItem_actionLayout com.citypocket:actionLayout}</code></td><td> An optional layout to be used as an action view.</td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass com.citypocket:actionProviderClass}</code></td><td> The name of an optional ActionProvider class to instantiate an action view
              and perform operations such as default action for that menu item.</td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass com.example.provacondatabase:actionViewClass}</code></td><td> The name of an optional View class to instantiate and use as an
+           <tr><td><code>{@link #MenuItem_actionViewClass com.citypocket:actionViewClass}</code></td><td> The name of an optional View class to instantiate and use as an
              action view.</td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td> The alphabetic shortcut key.</td></tr>
            <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td> Whether the item is capable of displaying a check mark.</td></tr>
@@ -4214,7 +4214,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td> The title associated with the item.</td></tr>
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td> The condensed title associated with the item.</td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td> Whether the item is shown/visible.</td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction com.example.provacondatabase:showAsAction}</code></td><td> How this item should display in the Action Bar, if present.</td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction com.citypocket:showAsAction}</code></td><td> How this item should display in the Action Bar, if present.</td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
@@ -4252,7 +4252,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:actionLayout
+          @attr name com.citypocket:actionLayout
         */
         public static final int MenuItem_actionLayout = 14;
         /**
@@ -4271,7 +4271,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:actionProviderClass
+          @attr name com.citypocket:actionProviderClass
         */
         public static final int MenuItem_actionProviderClass = 16;
         /**
@@ -4289,7 +4289,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:actionViewClass
+          @attr name com.citypocket:actionViewClass
         */
         public static final int MenuItem_actionViewClass = 15;
         /**
@@ -4445,7 +4445,7 @@ containing a value of this type.
                  larger segment of its container. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:showAsAction
+          @attr name com.citypocket:showAsAction
         */
         public static final int MenuItem_showAsAction = 13;
         /** Attributes that can be used with a MenuView.
@@ -4461,7 +4461,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuView_android_itemTextAppearance android:itemTextAppearance}</code></td><td> Default appearance of menu item text.</td></tr>
            <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td> Default vertical divider between menu items.</td></tr>
            <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td> Default animations for the menu.</td></tr>
-           <tr><td><code>{@link #MenuView_preserveIconSpacing com.example.provacondatabase:preserveIconSpacing}</code></td><td> Whether space should be reserved in layout when an icon is missing.</td></tr>
+           <tr><td><code>{@link #MenuView_preserveIconSpacing com.citypocket:preserveIconSpacing}</code></td><td> Whether space should be reserved in layout when an icon is missing.</td></tr>
            </table>
            @see #MenuView_android_headerBackground
            @see #MenuView_android_horizontalDivider
@@ -4552,7 +4552,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:preserveIconSpacing
+          @attr name com.citypocket:preserveIconSpacing
         */
         public static final int MenuView_preserveIconSpacing = 7;
         /** Attributes that can be used with a PopupWindow.
@@ -4562,7 +4562,7 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PopupWindow_overlapAnchor com.example.provacondatabase:overlapAnchor}</code></td><td> Whether the popup window should overlap its anchor view.</td></tr>
+           <tr><td><code>{@link #PopupWindow_overlapAnchor com.citypocket:overlapAnchor}</code></td><td> Whether the popup window should overlap its anchor view.</td></tr>
            </table>
            @see #PopupWindow_android_popupBackground
            @see #PopupWindow_overlapAnchor
@@ -4589,7 +4589,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:overlapAnchor
+          @attr name com.citypocket:overlapAnchor
         */
         public static final int PopupWindow_overlapAnchor = 1;
         /** Attributes that can be used with a PopupWindowBackgroundState.
@@ -4598,7 +4598,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.example.provacondatabase:state_above_anchor}</code></td><td> State identifier indicating the popup will be above the anchor.</td></tr>
+           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.citypocket:state_above_anchor}</code></td><td> State identifier indicating the popup will be above the anchor.</td></tr>
            </table>
            @see #PopupWindowBackgroundState_state_above_anchor
          */
@@ -4618,7 +4618,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:state_above_anchor
+          @attr name com.citypocket:state_above_anchor
         */
         public static final int PopupWindowBackgroundState_state_above_anchor = 0;
         /** Attributes that can be used with a SearchView.
@@ -4631,17 +4631,17 @@ containing a value of this type.
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td> The IME options to set on the query text field.</td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td> The input type to set on the query text field.</td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td> An optional maximum width of the SearchView.</td></tr>
-           <tr><td><code>{@link #SearchView_closeIcon com.example.provacondatabase:closeIcon}</code></td><td> Close button icon </td></tr>
-           <tr><td><code>{@link #SearchView_commitIcon com.example.provacondatabase:commitIcon}</code></td><td> Commit icon shown in the query suggestion row </td></tr>
-           <tr><td><code>{@link #SearchView_goIcon com.example.provacondatabase:goIcon}</code></td><td> Go button icon </td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault com.example.provacondatabase:iconifiedByDefault}</code></td><td> The default state of the SearchView.</td></tr>
-           <tr><td><code>{@link #SearchView_layout com.example.provacondatabase:layout}</code></td><td> The layout to use for the search view.</td></tr>
-           <tr><td><code>{@link #SearchView_queryBackground com.example.provacondatabase:queryBackground}</code></td><td> Background for the section containing the search query </td></tr>
-           <tr><td><code>{@link #SearchView_queryHint com.example.provacondatabase:queryHint}</code></td><td> An optional query hint string to be displayed in the empty query field.</td></tr>
-           <tr><td><code>{@link #SearchView_searchIcon com.example.provacondatabase:searchIcon}</code></td><td> Search icon </td></tr>
-           <tr><td><code>{@link #SearchView_submitBackground com.example.provacondatabase:submitBackground}</code></td><td> Background for the section containing the action (e.</td></tr>
-           <tr><td><code>{@link #SearchView_suggestionRowLayout com.example.provacondatabase:suggestionRowLayout}</code></td><td> Layout for query suggestion rows </td></tr>
-           <tr><td><code>{@link #SearchView_voiceIcon com.example.provacondatabase:voiceIcon}</code></td><td> Voice button icon </td></tr>
+           <tr><td><code>{@link #SearchView_closeIcon com.citypocket:closeIcon}</code></td><td> Close button icon </td></tr>
+           <tr><td><code>{@link #SearchView_commitIcon com.citypocket:commitIcon}</code></td><td> Commit icon shown in the query suggestion row </td></tr>
+           <tr><td><code>{@link #SearchView_goIcon com.citypocket:goIcon}</code></td><td> Go button icon </td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault com.citypocket:iconifiedByDefault}</code></td><td> The default state of the SearchView.</td></tr>
+           <tr><td><code>{@link #SearchView_layout com.citypocket:layout}</code></td><td> The layout to use for the search view.</td></tr>
+           <tr><td><code>{@link #SearchView_queryBackground com.citypocket:queryBackground}</code></td><td> Background for the section containing the search query </td></tr>
+           <tr><td><code>{@link #SearchView_queryHint com.citypocket:queryHint}</code></td><td> An optional query hint string to be displayed in the empty query field.</td></tr>
+           <tr><td><code>{@link #SearchView_searchIcon com.citypocket:searchIcon}</code></td><td> Search icon </td></tr>
+           <tr><td><code>{@link #SearchView_submitBackground com.citypocket:submitBackground}</code></td><td> Background for the section containing the action (e.</td></tr>
+           <tr><td><code>{@link #SearchView_suggestionRowLayout com.citypocket:suggestionRowLayout}</code></td><td> Layout for query suggestion rows </td></tr>
+           <tr><td><code>{@link #SearchView_voiceIcon com.citypocket:voiceIcon}</code></td><td> Voice button icon </td></tr>
            </table>
            @see #SearchView_android_focusable
            @see #SearchView_android_imeOptions
@@ -4707,7 +4707,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:closeIcon
+          @attr name com.citypocket:closeIcon
         */
         public static final int SearchView_closeIcon = 7;
         /**
@@ -4719,7 +4719,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:commitIcon
+          @attr name com.citypocket:commitIcon
         */
         public static final int SearchView_commitIcon = 11;
         /**
@@ -4731,7 +4731,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:goIcon
+          @attr name com.citypocket:goIcon
         */
         public static final int SearchView_goIcon = 8;
         /**
@@ -4748,7 +4748,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:iconifiedByDefault
+          @attr name com.citypocket:iconifiedByDefault
         */
         public static final int SearchView_iconifiedByDefault = 5;
         /**
@@ -4760,7 +4760,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:layout
+          @attr name com.citypocket:layout
         */
         public static final int SearchView_layout = 4;
         /**
@@ -4772,7 +4772,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:queryBackground
+          @attr name com.citypocket:queryBackground
         */
         public static final int SearchView_queryBackground = 13;
         /**
@@ -4788,7 +4788,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:queryHint
+          @attr name com.citypocket:queryHint
         */
         public static final int SearchView_queryHint = 6;
         /**
@@ -4800,7 +4800,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:searchIcon
+          @attr name com.citypocket:searchIcon
         */
         public static final int SearchView_searchIcon = 9;
         /**
@@ -4812,7 +4812,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:submitBackground
+          @attr name com.citypocket:submitBackground
         */
         public static final int SearchView_submitBackground = 14;
         /**
@@ -4824,7 +4824,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:suggestionRowLayout
+          @attr name com.citypocket:suggestionRowLayout
         */
         public static final int SearchView_suggestionRowLayout = 12;
         /**
@@ -4836,7 +4836,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:voiceIcon
+          @attr name com.citypocket:voiceIcon
         */
         public static final int SearchView_voiceIcon = 10;
         /** Attributes that can be used with a Spinner.
@@ -4854,12 +4854,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td> Width of the dropdown in spinnerMode="dropdown".</td></tr>
            <tr><td><code>{@link #Spinner_android_gravity android:gravity}</code></td><td> Gravity setting for positioning the currently selected item.</td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td> Background drawable to use for the dropdown in spinnerMode="dropdown".</td></tr>
-           <tr><td><code>{@link #Spinner_disableChildrenWhenDisabled com.example.provacondatabase:disableChildrenWhenDisabled}</code></td><td> Whether this spinner should mark child views as enabled/disabled when
+           <tr><td><code>{@link #Spinner_disableChildrenWhenDisabled com.citypocket:disableChildrenWhenDisabled}</code></td><td> Whether this spinner should mark child views as enabled/disabled when
              the spinner itself is enabled/disabled.</td></tr>
-           <tr><td><code>{@link #Spinner_popupPromptView com.example.provacondatabase:popupPromptView}</code></td><td> Reference to a layout to use for displaying a prompt in the dropdown for
+           <tr><td><code>{@link #Spinner_popupPromptView com.citypocket:popupPromptView}</code></td><td> Reference to a layout to use for displaying a prompt in the dropdown for
              spinnerMode="dropdown".</td></tr>
-           <tr><td><code>{@link #Spinner_prompt com.example.provacondatabase:prompt}</code></td><td> The prompt to display when the spinner's dialog is shown.</td></tr>
-           <tr><td><code>{@link #Spinner_spinnerMode com.example.provacondatabase:spinnerMode}</code></td><td> Display mode for spinner options.</td></tr>
+           <tr><td><code>{@link #Spinner_prompt com.citypocket:prompt}</code></td><td> The prompt to display when the spinner's dialog is shown.</td></tr>
+           <tr><td><code>{@link #Spinner_spinnerMode com.citypocket:spinnerMode}</code></td><td> Display mode for spinner options.</td></tr>
            </table>
            @see #Spinner_android_background
            @see #Spinner_android_dropDownHorizontalOffset
@@ -4954,7 +4954,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:disableChildrenWhenDisabled
+          @attr name com.citypocket:disableChildrenWhenDisabled
         */
         public static final int Spinner_disableChildrenWhenDisabled = 10;
         /**
@@ -4968,7 +4968,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:popupPromptView
+          @attr name com.citypocket:popupPromptView
         */
         public static final int Spinner_popupPromptView = 9;
         /**
@@ -4980,7 +4980,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:prompt
+          @attr name com.citypocket:prompt
         */
         public static final int Spinner_prompt = 7;
         /**
@@ -5000,7 +5000,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
                  anchored to the spinner widget itself. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:spinnerMode
+          @attr name com.citypocket:spinnerMode
         */
         public static final int Spinner_spinnerMode = 8;
         /** Attributes that can be used with a SwitchCompat.
@@ -5012,13 +5012,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td> Text to use when the switch is in the unchecked/"off" state.</td></tr>
            <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td> Text to use when the switch is in the checked/"on" state.</td></tr>
            <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td> Drawable to use as the "thumb" that switches back and forth.</td></tr>
-           <tr><td><code>{@link #SwitchCompat_showText com.example.provacondatabase:showText}</code></td><td> Whether to draw on/off text.</td></tr>
-           <tr><td><code>{@link #SwitchCompat_splitTrack com.example.provacondatabase:splitTrack}</code></td><td> Whether to split the track and leave a gap for the thumb drawable.</td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.example.provacondatabase:switchMinWidth}</code></td><td> Minimum width for the switch component </td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchPadding com.example.provacondatabase:switchPadding}</code></td><td> Minimum space between the switch and caption text </td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.example.provacondatabase:switchTextAppearance}</code></td><td> TextAppearance style for text displayed on the switch thumb.</td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.example.provacondatabase:thumbTextPadding}</code></td><td> Amount of padding on either side of text within the switch thumb.</td></tr>
-           <tr><td><code>{@link #SwitchCompat_track com.example.provacondatabase:track}</code></td><td> Drawable to use as the "track" that the switch thumb slides within.</td></tr>
+           <tr><td><code>{@link #SwitchCompat_showText com.citypocket:showText}</code></td><td> Whether to draw on/off text.</td></tr>
+           <tr><td><code>{@link #SwitchCompat_splitTrack com.citypocket:splitTrack}</code></td><td> Whether to split the track and leave a gap for the thumb drawable.</td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.citypocket:switchMinWidth}</code></td><td> Minimum width for the switch component </td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchPadding com.citypocket:switchPadding}</code></td><td> Minimum space between the switch and caption text </td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.citypocket:switchTextAppearance}</code></td><td> TextAppearance style for text displayed on the switch thumb.</td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.citypocket:thumbTextPadding}</code></td><td> Amount of padding on either side of text within the switch thumb.</td></tr>
+           <tr><td><code>{@link #SwitchCompat_track com.citypocket:track}</code></td><td> Drawable to use as the "track" that the switch thumb slides within.</td></tr>
            </table>
            @see #SwitchCompat_android_textOff
            @see #SwitchCompat_android_textOn
@@ -5076,7 +5076,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:showText
+          @attr name com.citypocket:showText
         */
         public static final int SwitchCompat_showText = 9;
         /**
@@ -5092,7 +5092,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:splitTrack
+          @attr name com.citypocket:splitTrack
         */
         public static final int SwitchCompat_splitTrack = 8;
         /**
@@ -5110,7 +5110,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:switchMinWidth
+          @attr name com.citypocket:switchMinWidth
         */
         public static final int SwitchCompat_switchMinWidth = 6;
         /**
@@ -5128,7 +5128,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:switchPadding
+          @attr name com.citypocket:switchPadding
         */
         public static final int SwitchCompat_switchPadding = 7;
         /**
@@ -5140,7 +5140,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:switchTextAppearance
+          @attr name com.citypocket:switchTextAppearance
         */
         public static final int SwitchCompat_switchTextAppearance = 5;
         /**
@@ -5158,7 +5158,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:thumbTextPadding
+          @attr name com.citypocket:thumbTextPadding
         */
         public static final int SwitchCompat_thumbTextPadding = 4;
         /**
@@ -5170,7 +5170,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:track
+          @attr name com.citypocket:track
         */
         public static final int SwitchCompat_track = 3;
         /** Attributes that can be used with a SwitchCompatTextAppearance.
@@ -5181,7 +5181,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #SwitchCompatTextAppearance_android_textColor android:textColor}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompatTextAppearance_android_textSize android:textSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompatTextAppearance_textAllCaps com.example.provacondatabase:textAllCaps}</code></td><td> Present the text in ALL CAPS.</td></tr>
+           <tr><td><code>{@link #SwitchCompatTextAppearance_textAllCaps com.citypocket:textAllCaps}</code></td><td> Present the text in ALL CAPS.</td></tr>
            </table>
            @see #SwitchCompatTextAppearance_android_textColor
            @see #SwitchCompatTextAppearance_android_textSize
@@ -5212,7 +5212,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:textAllCaps
+          @attr name com.citypocket:textAllCaps
         */
         public static final int SwitchCompatTextAppearance_textAllCaps = 2;
         /**  These are the standard attributes that make up a complete theme. 
@@ -5221,105 +5221,105 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Theme_actionBarDivider com.example.provacondatabase:actionBarDivider}</code></td><td> Custom divider drawable to use for elements in the action bar.</td></tr>
-           <tr><td><code>{@link #Theme_actionBarItemBackground com.example.provacondatabase:actionBarItemBackground}</code></td><td> Custom item state list drawable background for action bar items.</td></tr>
-           <tr><td><code>{@link #Theme_actionBarPopupTheme com.example.provacondatabase:actionBarPopupTheme}</code></td><td> Reference to a theme that should be used to inflate popups
+           <tr><td><code>{@link #Theme_actionBarDivider com.citypocket:actionBarDivider}</code></td><td> Custom divider drawable to use for elements in the action bar.</td></tr>
+           <tr><td><code>{@link #Theme_actionBarItemBackground com.citypocket:actionBarItemBackground}</code></td><td> Custom item state list drawable background for action bar items.</td></tr>
+           <tr><td><code>{@link #Theme_actionBarPopupTheme com.citypocket:actionBarPopupTheme}</code></td><td> Reference to a theme that should be used to inflate popups
              shown by widgets in the action bar.</td></tr>
-           <tr><td><code>{@link #Theme_actionBarSize com.example.provacondatabase:actionBarSize}</code></td><td> Size of the Action Bar, including the contextual
+           <tr><td><code>{@link #Theme_actionBarSize com.citypocket:actionBarSize}</code></td><td> Size of the Action Bar, including the contextual
              bar used to present Action Modes.</td></tr>
-           <tr><td><code>{@link #Theme_actionBarSplitStyle com.example.provacondatabase:actionBarSplitStyle}</code></td><td> Reference to a style for the split Action Bar.</td></tr>
-           <tr><td><code>{@link #Theme_actionBarStyle com.example.provacondatabase:actionBarStyle}</code></td><td> Reference to a style for the Action Bar </td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabBarStyle com.example.provacondatabase:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabStyle com.example.provacondatabase:actionBarTabStyle}</code></td><td> Default style for tabs within an action bar </td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabTextStyle com.example.provacondatabase:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTheme com.example.provacondatabase:actionBarTheme}</code></td><td> Reference to a theme that should be used to inflate the
+           <tr><td><code>{@link #Theme_actionBarSplitStyle com.citypocket:actionBarSplitStyle}</code></td><td> Reference to a style for the split Action Bar.</td></tr>
+           <tr><td><code>{@link #Theme_actionBarStyle com.citypocket:actionBarStyle}</code></td><td> Reference to a style for the Action Bar </td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabBarStyle com.citypocket:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabStyle com.citypocket:actionBarTabStyle}</code></td><td> Default style for tabs within an action bar </td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabTextStyle com.citypocket:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTheme com.citypocket:actionBarTheme}</code></td><td> Reference to a theme that should be used to inflate the
              action bar.</td></tr>
-           <tr><td><code>{@link #Theme_actionBarWidgetTheme com.example.provacondatabase:actionBarWidgetTheme}</code></td><td> Reference to a theme that should be used to inflate widgets
+           <tr><td><code>{@link #Theme_actionBarWidgetTheme com.citypocket:actionBarWidgetTheme}</code></td><td> Reference to a theme that should be used to inflate widgets
              and layouts destined for the action bar.</td></tr>
-           <tr><td><code>{@link #Theme_actionButtonStyle com.example.provacondatabase:actionButtonStyle}</code></td><td> Default action button style.</td></tr>
-           <tr><td><code>{@link #Theme_actionDropDownStyle com.example.provacondatabase:actionDropDownStyle}</code></td><td> Default ActionBar dropdown style.</td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextAppearance com.example.provacondatabase:actionMenuTextAppearance}</code></td><td> TextAppearance style that will be applied to text that
+           <tr><td><code>{@link #Theme_actionButtonStyle com.citypocket:actionButtonStyle}</code></td><td> Default action button style.</td></tr>
+           <tr><td><code>{@link #Theme_actionDropDownStyle com.citypocket:actionDropDownStyle}</code></td><td> Default ActionBar dropdown style.</td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextAppearance com.citypocket:actionMenuTextAppearance}</code></td><td> TextAppearance style that will be applied to text that
              appears within action menu items.</td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextColor com.example.provacondatabase:actionMenuTextColor}</code></td><td> Color for text that appears within action menu items.</td></tr>
-           <tr><td><code>{@link #Theme_actionModeBackground com.example.provacondatabase:actionModeBackground}</code></td><td> Background drawable to use for action mode UI </td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle com.example.provacondatabase:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseDrawable com.example.provacondatabase:actionModeCloseDrawable}</code></td><td> Drawable to use for the close action mode button </td></tr>
-           <tr><td><code>{@link #Theme_actionModeCopyDrawable com.example.provacondatabase:actionModeCopyDrawable}</code></td><td> Drawable to use for the Copy action button in Contextual Action Bar </td></tr>
-           <tr><td><code>{@link #Theme_actionModeCutDrawable com.example.provacondatabase:actionModeCutDrawable}</code></td><td> Drawable to use for the Cut action button in Contextual Action Bar </td></tr>
-           <tr><td><code>{@link #Theme_actionModeFindDrawable com.example.provacondatabase:actionModeFindDrawable}</code></td><td> Drawable to use for the Find action button in WebView selection action modes </td></tr>
-           <tr><td><code>{@link #Theme_actionModePasteDrawable com.example.provacondatabase:actionModePasteDrawable}</code></td><td> Drawable to use for the Paste action button in Contextual Action Bar </td></tr>
-           <tr><td><code>{@link #Theme_actionModePopupWindowStyle com.example.provacondatabase:actionModePopupWindowStyle}</code></td><td> PopupWindow style to use for action modes when showing as a window overlay.</td></tr>
-           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable com.example.provacondatabase:actionModeSelectAllDrawable}</code></td><td> Drawable to use for the Select all action button in Contextual Action Bar </td></tr>
-           <tr><td><code>{@link #Theme_actionModeShareDrawable com.example.provacondatabase:actionModeShareDrawable}</code></td><td> Drawable to use for the Share action button in WebView selection action modes </td></tr>
-           <tr><td><code>{@link #Theme_actionModeSplitBackground com.example.provacondatabase:actionModeSplitBackground}</code></td><td> Background drawable to use for action mode UI in the lower split bar </td></tr>
-           <tr><td><code>{@link #Theme_actionModeStyle com.example.provacondatabase:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable com.example.provacondatabase:actionModeWebSearchDrawable}</code></td><td> Drawable to use for the Web Search action button in WebView selection action modes </td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowButtonStyle com.example.provacondatabase:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowMenuStyle com.example.provacondatabase:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_activityChooserViewStyle com.example.provacondatabase:activityChooserViewStyle}</code></td><td> Default ActivityChooserView style.</td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextColor com.citypocket:actionMenuTextColor}</code></td><td> Color for text that appears within action menu items.</td></tr>
+           <tr><td><code>{@link #Theme_actionModeBackground com.citypocket:actionModeBackground}</code></td><td> Background drawable to use for action mode UI </td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle com.citypocket:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseDrawable com.citypocket:actionModeCloseDrawable}</code></td><td> Drawable to use for the close action mode button </td></tr>
+           <tr><td><code>{@link #Theme_actionModeCopyDrawable com.citypocket:actionModeCopyDrawable}</code></td><td> Drawable to use for the Copy action button in Contextual Action Bar </td></tr>
+           <tr><td><code>{@link #Theme_actionModeCutDrawable com.citypocket:actionModeCutDrawable}</code></td><td> Drawable to use for the Cut action button in Contextual Action Bar </td></tr>
+           <tr><td><code>{@link #Theme_actionModeFindDrawable com.citypocket:actionModeFindDrawable}</code></td><td> Drawable to use for the Find action button in WebView selection action modes </td></tr>
+           <tr><td><code>{@link #Theme_actionModePasteDrawable com.citypocket:actionModePasteDrawable}</code></td><td> Drawable to use for the Paste action button in Contextual Action Bar </td></tr>
+           <tr><td><code>{@link #Theme_actionModePopupWindowStyle com.citypocket:actionModePopupWindowStyle}</code></td><td> PopupWindow style to use for action modes when showing as a window overlay.</td></tr>
+           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable com.citypocket:actionModeSelectAllDrawable}</code></td><td> Drawable to use for the Select all action button in Contextual Action Bar </td></tr>
+           <tr><td><code>{@link #Theme_actionModeShareDrawable com.citypocket:actionModeShareDrawable}</code></td><td> Drawable to use for the Share action button in WebView selection action modes </td></tr>
+           <tr><td><code>{@link #Theme_actionModeSplitBackground com.citypocket:actionModeSplitBackground}</code></td><td> Background drawable to use for action mode UI in the lower split bar </td></tr>
+           <tr><td><code>{@link #Theme_actionModeStyle com.citypocket:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable com.citypocket:actionModeWebSearchDrawable}</code></td><td> Drawable to use for the Web Search action button in WebView selection action modes </td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowButtonStyle com.citypocket:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowMenuStyle com.citypocket:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_activityChooserViewStyle com.citypocket:activityChooserViewStyle}</code></td><td> Default ActivityChooserView style.</td></tr>
            <tr><td><code>{@link #Theme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #Theme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarButtonStyle com.example.provacondatabase:buttonBarButtonStyle}</code></td><td> A style that may be applied to Buttons placed within a
+           <tr><td><code>{@link #Theme_buttonBarButtonStyle com.citypocket:buttonBarButtonStyle}</code></td><td> A style that may be applied to Buttons placed within a
              LinearLayout with the style buttonBarStyle to form a button bar.</td></tr>
-           <tr><td><code>{@link #Theme_buttonBarStyle com.example.provacondatabase:buttonBarStyle}</code></td><td> A style that may be applied to horizontal LinearLayouts
+           <tr><td><code>{@link #Theme_buttonBarStyle com.citypocket:buttonBarStyle}</code></td><td> A style that may be applied to horizontal LinearLayouts
          to form a button bar.</td></tr>
-           <tr><td><code>{@link #Theme_colorAccent com.example.provacondatabase:colorAccent}</code></td><td> Bright complement to the primary branding color.</td></tr>
-           <tr><td><code>{@link #Theme_colorButtonNormal com.example.provacondatabase:colorButtonNormal}</code></td><td> The color applied to framework buttons in their normal state.</td></tr>
-           <tr><td><code>{@link #Theme_colorControlActivated com.example.provacondatabase:colorControlActivated}</code></td><td> The color applied to framework controls in their activated (ex.</td></tr>
-           <tr><td><code>{@link #Theme_colorControlHighlight com.example.provacondatabase:colorControlHighlight}</code></td><td> The color applied to framework control highlights (ex.</td></tr>
-           <tr><td><code>{@link #Theme_colorControlNormal com.example.provacondatabase:colorControlNormal}</code></td><td> The color applied to framework controls in their normal state.</td></tr>
-           <tr><td><code>{@link #Theme_colorPrimary com.example.provacondatabase:colorPrimary}</code></td><td> The primary branding color for the app.</td></tr>
-           <tr><td><code>{@link #Theme_colorPrimaryDark com.example.provacondatabase:colorPrimaryDark}</code></td><td> Dark variant of the primary branding color.</td></tr>
-           <tr><td><code>{@link #Theme_colorSwitchThumbNormal com.example.provacondatabase:colorSwitchThumbNormal}</code></td><td> The color applied to framework switch thumbs in their normal state.</td></tr>
-           <tr><td><code>{@link #Theme_dividerHorizontal com.example.provacondatabase:dividerHorizontal}</code></td><td> A drawable that may be used as a horizontal divider between visual elements.</td></tr>
-           <tr><td><code>{@link #Theme_dividerVertical com.example.provacondatabase:dividerVertical}</code></td><td> A drawable that may be used as a vertical divider between visual elements.</td></tr>
-           <tr><td><code>{@link #Theme_dropDownListViewStyle com.example.provacondatabase:dropDownListViewStyle}</code></td><td> ListPopupWindow compatibility </td></tr>
-           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight com.example.provacondatabase:dropdownListPreferredItemHeight}</code></td><td> The preferred item height for dropdown lists.</td></tr>
-           <tr><td><code>{@link #Theme_editTextBackground com.example.provacondatabase:editTextBackground}</code></td><td> EditText background drawable.</td></tr>
-           <tr><td><code>{@link #Theme_editTextColor com.example.provacondatabase:editTextColor}</code></td><td> EditText text foreground color.</td></tr>
-           <tr><td><code>{@link #Theme_homeAsUpIndicator com.example.provacondatabase:homeAsUpIndicator}</code></td><td> Specifies a drawable to use for the 'home as up' indicator.</td></tr>
-           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator com.example.provacondatabase:listChoiceBackgroundIndicator}</code></td><td> Drawable used as a background for selected list items.</td></tr>
-           <tr><td><code>{@link #Theme_listPopupWindowStyle com.example.provacondatabase:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeight com.example.provacondatabase:listPreferredItemHeight}</code></td><td> The preferred list item height.</td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge com.example.provacondatabase:listPreferredItemHeightLarge}</code></td><td> A larger, more robust list item height.</td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall com.example.provacondatabase:listPreferredItemHeightSmall}</code></td><td> A smaller, sleeker list item height.</td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft com.example.provacondatabase:listPreferredItemPaddingLeft}</code></td><td> The preferred padding along the left edge of list items.</td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight com.example.provacondatabase:listPreferredItemPaddingRight}</code></td><td> The preferred padding along the right edge of list items.</td></tr>
-           <tr><td><code>{@link #Theme_panelBackground com.example.provacondatabase:panelBackground}</code></td><td> The background of a panel when it is inset from the left and right edges of the screen.</td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListTheme com.example.provacondatabase:panelMenuListTheme}</code></td><td> Default Panel Menu style.</td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListWidth com.example.provacondatabase:panelMenuListWidth}</code></td><td> Default Panel Menu width.</td></tr>
-           <tr><td><code>{@link #Theme_popupMenuStyle com.example.provacondatabase:popupMenuStyle}</code></td><td> Default PopupMenu style.</td></tr>
-           <tr><td><code>{@link #Theme_popupWindowStyle com.example.provacondatabase:popupWindowStyle}</code></td><td> Default PopupWindow style.</td></tr>
-           <tr><td><code>{@link #Theme_searchViewStyle com.example.provacondatabase:searchViewStyle}</code></td><td> Style for the search query widget.</td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackground com.example.provacondatabase:selectableItemBackground}</code></td><td> A style that may be applied to buttons or other selectable items
+           <tr><td><code>{@link #Theme_colorAccent com.citypocket:colorAccent}</code></td><td> Bright complement to the primary branding color.</td></tr>
+           <tr><td><code>{@link #Theme_colorButtonNormal com.citypocket:colorButtonNormal}</code></td><td> The color applied to framework buttons in their normal state.</td></tr>
+           <tr><td><code>{@link #Theme_colorControlActivated com.citypocket:colorControlActivated}</code></td><td> The color applied to framework controls in their activated (ex.</td></tr>
+           <tr><td><code>{@link #Theme_colorControlHighlight com.citypocket:colorControlHighlight}</code></td><td> The color applied to framework control highlights (ex.</td></tr>
+           <tr><td><code>{@link #Theme_colorControlNormal com.citypocket:colorControlNormal}</code></td><td> The color applied to framework controls in their normal state.</td></tr>
+           <tr><td><code>{@link #Theme_colorPrimary com.citypocket:colorPrimary}</code></td><td> The primary branding color for the app.</td></tr>
+           <tr><td><code>{@link #Theme_colorPrimaryDark com.citypocket:colorPrimaryDark}</code></td><td> Dark variant of the primary branding color.</td></tr>
+           <tr><td><code>{@link #Theme_colorSwitchThumbNormal com.citypocket:colorSwitchThumbNormal}</code></td><td> The color applied to framework switch thumbs in their normal state.</td></tr>
+           <tr><td><code>{@link #Theme_dividerHorizontal com.citypocket:dividerHorizontal}</code></td><td> A drawable that may be used as a horizontal divider between visual elements.</td></tr>
+           <tr><td><code>{@link #Theme_dividerVertical com.citypocket:dividerVertical}</code></td><td> A drawable that may be used as a vertical divider between visual elements.</td></tr>
+           <tr><td><code>{@link #Theme_dropDownListViewStyle com.citypocket:dropDownListViewStyle}</code></td><td> ListPopupWindow compatibility </td></tr>
+           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight com.citypocket:dropdownListPreferredItemHeight}</code></td><td> The preferred item height for dropdown lists.</td></tr>
+           <tr><td><code>{@link #Theme_editTextBackground com.citypocket:editTextBackground}</code></td><td> EditText background drawable.</td></tr>
+           <tr><td><code>{@link #Theme_editTextColor com.citypocket:editTextColor}</code></td><td> EditText text foreground color.</td></tr>
+           <tr><td><code>{@link #Theme_homeAsUpIndicator com.citypocket:homeAsUpIndicator}</code></td><td> Specifies a drawable to use for the 'home as up' indicator.</td></tr>
+           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator com.citypocket:listChoiceBackgroundIndicator}</code></td><td> Drawable used as a background for selected list items.</td></tr>
+           <tr><td><code>{@link #Theme_listPopupWindowStyle com.citypocket:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeight com.citypocket:listPreferredItemHeight}</code></td><td> The preferred list item height.</td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge com.citypocket:listPreferredItemHeightLarge}</code></td><td> A larger, more robust list item height.</td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall com.citypocket:listPreferredItemHeightSmall}</code></td><td> A smaller, sleeker list item height.</td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft com.citypocket:listPreferredItemPaddingLeft}</code></td><td> The preferred padding along the left edge of list items.</td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight com.citypocket:listPreferredItemPaddingRight}</code></td><td> The preferred padding along the right edge of list items.</td></tr>
+           <tr><td><code>{@link #Theme_panelBackground com.citypocket:panelBackground}</code></td><td> The background of a panel when it is inset from the left and right edges of the screen.</td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListTheme com.citypocket:panelMenuListTheme}</code></td><td> Default Panel Menu style.</td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListWidth com.citypocket:panelMenuListWidth}</code></td><td> Default Panel Menu width.</td></tr>
+           <tr><td><code>{@link #Theme_popupMenuStyle com.citypocket:popupMenuStyle}</code></td><td> Default PopupMenu style.</td></tr>
+           <tr><td><code>{@link #Theme_popupWindowStyle com.citypocket:popupWindowStyle}</code></td><td> Default PopupWindow style.</td></tr>
+           <tr><td><code>{@link #Theme_searchViewStyle com.citypocket:searchViewStyle}</code></td><td> Style for the search query widget.</td></tr>
+           <tr><td><code>{@link #Theme_selectableItemBackground com.citypocket:selectableItemBackground}</code></td><td> A style that may be applied to buttons or other selectable items
              that should react to pressed and focus states, but that do not
              have a clear visual border along the edges.</td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless com.example.provacondatabase:selectableItemBackgroundBorderless}</code></td><td> Background drawable for borderless standalone items that need focus/pressed states.</td></tr>
-           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle com.example.provacondatabase:spinnerDropDownItemStyle}</code></td><td> Default Spinner style.</td></tr>
-           <tr><td><code>{@link #Theme_spinnerStyle com.example.provacondatabase:spinnerStyle}</code></td><td> Default Spinner style.</td></tr>
-           <tr><td><code>{@link #Theme_switchStyle com.example.provacondatabase:switchStyle}</code></td><td> Default style for the Switch widget.</td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu com.example.provacondatabase:textAppearanceLargePopupMenu}</code></td><td> Text color, typeface, size, and style for the text inside of a popup menu.</td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItem com.example.provacondatabase:textAppearanceListItem}</code></td><td> The preferred TextAppearance for the primary text of list items.</td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItemSmall com.example.provacondatabase:textAppearanceListItemSmall}</code></td><td> The preferred TextAppearance for the primary text of small list items.</td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle com.example.provacondatabase:textAppearanceSearchResultSubtitle}</code></td><td> Text color, typeface, size, and style for system search result subtitle.</td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle com.example.provacondatabase:textAppearanceSearchResultTitle}</code></td><td> Text color, typeface, size, and style for system search result title.</td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu com.example.provacondatabase:textAppearanceSmallPopupMenu}</code></td><td> Text color, typeface, size, and style for small text inside of a popup menu.</td></tr>
-           <tr><td><code>{@link #Theme_textColorSearchUrl com.example.provacondatabase:textColorSearchUrl}</code></td><td> Text color for urls in search suggestions, used by things like global search </td></tr>
-           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle com.example.provacondatabase:toolbarNavigationButtonStyle}</code></td><td> Default Toolar NavigationButtonStyle </td></tr>
-           <tr><td><code>{@link #Theme_toolbarStyle com.example.provacondatabase:toolbarStyle}</code></td><td> Default Toolbar style.</td></tr>
-           <tr><td><code>{@link #Theme_windowActionBar com.example.provacondatabase:windowActionBar}</code></td><td> Flag indicating whether this window should have an Action Bar
+           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless com.citypocket:selectableItemBackgroundBorderless}</code></td><td> Background drawable for borderless standalone items that need focus/pressed states.</td></tr>
+           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle com.citypocket:spinnerDropDownItemStyle}</code></td><td> Default Spinner style.</td></tr>
+           <tr><td><code>{@link #Theme_spinnerStyle com.citypocket:spinnerStyle}</code></td><td> Default Spinner style.</td></tr>
+           <tr><td><code>{@link #Theme_switchStyle com.citypocket:switchStyle}</code></td><td> Default style for the Switch widget.</td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu com.citypocket:textAppearanceLargePopupMenu}</code></td><td> Text color, typeface, size, and style for the text inside of a popup menu.</td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItem com.citypocket:textAppearanceListItem}</code></td><td> The preferred TextAppearance for the primary text of list items.</td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItemSmall com.citypocket:textAppearanceListItemSmall}</code></td><td> The preferred TextAppearance for the primary text of small list items.</td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle com.citypocket:textAppearanceSearchResultSubtitle}</code></td><td> Text color, typeface, size, and style for system search result subtitle.</td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle com.citypocket:textAppearanceSearchResultTitle}</code></td><td> Text color, typeface, size, and style for system search result title.</td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu com.citypocket:textAppearanceSmallPopupMenu}</code></td><td> Text color, typeface, size, and style for small text inside of a popup menu.</td></tr>
+           <tr><td><code>{@link #Theme_textColorSearchUrl com.citypocket:textColorSearchUrl}</code></td><td> Text color for urls in search suggestions, used by things like global search </td></tr>
+           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle com.citypocket:toolbarNavigationButtonStyle}</code></td><td> Default Toolar NavigationButtonStyle </td></tr>
+           <tr><td><code>{@link #Theme_toolbarStyle com.citypocket:toolbarStyle}</code></td><td> Default Toolbar style.</td></tr>
+           <tr><td><code>{@link #Theme_windowActionBar com.citypocket:windowActionBar}</code></td><td> Flag indicating whether this window should have an Action Bar
              in place of the usual title bar.</td></tr>
-           <tr><td><code>{@link #Theme_windowActionBarOverlay com.example.provacondatabase:windowActionBarOverlay}</code></td><td> Flag indicating whether this window's Action Bar should overlay
+           <tr><td><code>{@link #Theme_windowActionBarOverlay com.citypocket:windowActionBarOverlay}</code></td><td> Flag indicating whether this window's Action Bar should overlay
              application content.</td></tr>
-           <tr><td><code>{@link #Theme_windowActionModeOverlay com.example.provacondatabase:windowActionModeOverlay}</code></td><td> Flag indicating whether action modes should overlay window content
+           <tr><td><code>{@link #Theme_windowActionModeOverlay com.citypocket:windowActionModeOverlay}</code></td><td> Flag indicating whether action modes should overlay window content
              when there is not reserved space for their UI (such as an Action Bar).</td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMajor com.example.provacondatabase:windowFixedHeightMajor}</code></td><td> A fixed height for the window along the major axis of the screen,
+           <tr><td><code>{@link #Theme_windowFixedHeightMajor com.citypocket:windowFixedHeightMajor}</code></td><td> A fixed height for the window along the major axis of the screen,
              that is, when in portrait.</td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMinor com.example.provacondatabase:windowFixedHeightMinor}</code></td><td> A fixed height for the window along the minor axis of the screen,
+           <tr><td><code>{@link #Theme_windowFixedHeightMinor com.citypocket:windowFixedHeightMinor}</code></td><td> A fixed height for the window along the minor axis of the screen,
              that is, when in landscape.</td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMajor com.example.provacondatabase:windowFixedWidthMajor}</code></td><td> A fixed width for the window along the major axis of the screen,
+           <tr><td><code>{@link #Theme_windowFixedWidthMajor com.citypocket:windowFixedWidthMajor}</code></td><td> A fixed width for the window along the major axis of the screen,
              that is, when in landscape.</td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMinor com.example.provacondatabase:windowFixedWidthMinor}</code></td><td> A fixed width for the window along the minor axis of the screen,
+           <tr><td><code>{@link #Theme_windowFixedWidthMinor com.citypocket:windowFixedWidthMinor}</code></td><td> A fixed width for the window along the minor axis of the screen,
              that is, when in portrait.</td></tr>
            </table>
            @see #Theme_actionBarDivider
@@ -5439,7 +5439,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:actionBarDivider
+          @attr name com.citypocket:actionBarDivider
         */
         public static final int Theme_actionBarDivider = 20;
         /**
@@ -5451,7 +5451,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:actionBarItemBackground
+          @attr name com.citypocket:actionBarItemBackground
         */
         public static final int Theme_actionBarItemBackground = 21;
         /**
@@ -5464,7 +5464,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:actionBarPopupTheme
+          @attr name com.citypocket:actionBarPopupTheme
         */
         public static final int Theme_actionBarPopupTheme = 14;
         /**
@@ -5491,7 +5491,7 @@ containing a value of this type.
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:actionBarSize
+          @attr name com.citypocket:actionBarSize
         */
         public static final int Theme_actionBarSize = 19;
         /**
@@ -5506,7 +5506,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:actionBarSplitStyle
+          @attr name com.citypocket:actionBarSplitStyle
         */
         public static final int Theme_actionBarSplitStyle = 16;
         /**
@@ -5518,7 +5518,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:actionBarStyle
+          @attr name com.citypocket:actionBarStyle
         */
         public static final int Theme_actionBarStyle = 15;
         /**
@@ -5528,7 +5528,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.provacondatabase:actionBarTabBarStyle
+          @attr name com.citypocket:actionBarTabBarStyle
         */
         public static final int Theme_actionBarTabBarStyle = 10;
         /**
@@ -5540,7 +5540,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:actionBarTabStyle
+          @attr name com.citypocket:actionBarTabStyle
         */
         public static final int Theme_actionBarTabStyle = 9;
         /**
@@ -5550,7 +5550,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.provacondatabase:actionBarTabTextStyle
+          @attr name com.citypocket:actionBarTabTextStyle
         */
         public static final int Theme_actionBarTabTextStyle = 11;
         /**
@@ -5564,7 +5564,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:actionBarTheme
+          @attr name com.citypocket:actionBarTheme
         */
         public static final int Theme_actionBarTheme = 17;
         /**
@@ -5582,7 +5582,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:actionBarWidgetTheme
+          @attr name com.citypocket:actionBarWidgetTheme
         */
         public static final int Theme_actionBarWidgetTheme = 18;
         /**
@@ -5594,7 +5594,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:actionButtonStyle
+          @attr name com.citypocket:actionButtonStyle
         */
         public static final int Theme_actionButtonStyle = 44;
         /**
@@ -5606,7 +5606,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:actionDropDownStyle
+          @attr name com.citypocket:actionDropDownStyle
         */
         public static final int Theme_actionDropDownStyle = 39;
         /**
@@ -5619,7 +5619,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:actionMenuTextAppearance
+          @attr name com.citypocket:actionMenuTextAppearance
         */
         public static final int Theme_actionMenuTextAppearance = 22;
         /**
@@ -5634,7 +5634,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:actionMenuTextColor
+          @attr name com.citypocket:actionMenuTextColor
         */
         public static final int Theme_actionMenuTextColor = 23;
         /**
@@ -5646,7 +5646,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:actionModeBackground
+          @attr name com.citypocket:actionModeBackground
         */
         public static final int Theme_actionModeBackground = 26;
         /**
@@ -5656,7 +5656,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.provacondatabase:actionModeCloseButtonStyle
+          @attr name com.citypocket:actionModeCloseButtonStyle
         */
         public static final int Theme_actionModeCloseButtonStyle = 25;
         /**
@@ -5668,7 +5668,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:actionModeCloseDrawable
+          @attr name com.citypocket:actionModeCloseDrawable
         */
         public static final int Theme_actionModeCloseDrawable = 28;
         /**
@@ -5680,7 +5680,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:actionModeCopyDrawable
+          @attr name com.citypocket:actionModeCopyDrawable
         */
         public static final int Theme_actionModeCopyDrawable = 30;
         /**
@@ -5692,7 +5692,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:actionModeCutDrawable
+          @attr name com.citypocket:actionModeCutDrawable
         */
         public static final int Theme_actionModeCutDrawable = 29;
         /**
@@ -5704,7 +5704,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:actionModeFindDrawable
+          @attr name com.citypocket:actionModeFindDrawable
         */
         public static final int Theme_actionModeFindDrawable = 34;
         /**
@@ -5716,7 +5716,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:actionModePasteDrawable
+          @attr name com.citypocket:actionModePasteDrawable
         */
         public static final int Theme_actionModePasteDrawable = 31;
         /**
@@ -5728,7 +5728,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:actionModePopupWindowStyle
+          @attr name com.citypocket:actionModePopupWindowStyle
         */
         public static final int Theme_actionModePopupWindowStyle = 36;
         /**
@@ -5740,7 +5740,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:actionModeSelectAllDrawable
+          @attr name com.citypocket:actionModeSelectAllDrawable
         */
         public static final int Theme_actionModeSelectAllDrawable = 32;
         /**
@@ -5752,7 +5752,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:actionModeShareDrawable
+          @attr name com.citypocket:actionModeShareDrawable
         */
         public static final int Theme_actionModeShareDrawable = 33;
         /**
@@ -5764,7 +5764,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:actionModeSplitBackground
+          @attr name com.citypocket:actionModeSplitBackground
         */
         public static final int Theme_actionModeSplitBackground = 27;
         /**
@@ -5774,7 +5774,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.provacondatabase:actionModeStyle
+          @attr name com.citypocket:actionModeStyle
         */
         public static final int Theme_actionModeStyle = 24;
         /**
@@ -5786,7 +5786,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:actionModeWebSearchDrawable
+          @attr name com.citypocket:actionModeWebSearchDrawable
         */
         public static final int Theme_actionModeWebSearchDrawable = 35;
         /**
@@ -5796,7 +5796,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.provacondatabase:actionOverflowButtonStyle
+          @attr name com.citypocket:actionOverflowButtonStyle
         */
         public static final int Theme_actionOverflowButtonStyle = 12;
         /**
@@ -5806,7 +5806,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.provacondatabase:actionOverflowMenuStyle
+          @attr name com.citypocket:actionOverflowMenuStyle
         */
         public static final int Theme_actionOverflowMenuStyle = 13;
         /**
@@ -5818,7 +5818,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:activityChooserViewStyle
+          @attr name com.citypocket:activityChooserViewStyle
         */
         public static final int Theme_activityChooserViewStyle = 51;
         /**
@@ -5843,7 +5843,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:buttonBarButtonStyle
+          @attr name com.citypocket:buttonBarButtonStyle
         */
         public static final int Theme_buttonBarButtonStyle = 46;
         /**
@@ -5856,7 +5856,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:buttonBarStyle
+          @attr name com.citypocket:buttonBarStyle
         */
         public static final int Theme_buttonBarStyle = 45;
         /**
@@ -5874,7 +5874,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:colorAccent
+          @attr name com.citypocket:colorAccent
         */
         public static final int Theme_colorAccent = 78;
         /**
@@ -5891,7 +5891,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:colorButtonNormal
+          @attr name com.citypocket:colorButtonNormal
         */
         public static final int Theme_colorButtonNormal = 82;
         /**
@@ -5908,7 +5908,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:colorControlActivated
+          @attr name com.citypocket:colorControlActivated
         */
         public static final int Theme_colorControlActivated = 80;
         /**
@@ -5925,7 +5925,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:colorControlHighlight
+          @attr name com.citypocket:colorControlHighlight
         */
         public static final int Theme_colorControlHighlight = 81;
         /**
@@ -5942,7 +5942,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:colorControlNormal
+          @attr name com.citypocket:colorControlNormal
         */
         public static final int Theme_colorControlNormal = 79;
         /**
@@ -5960,7 +5960,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:colorPrimary
+          @attr name com.citypocket:colorPrimary
         */
         public static final int Theme_colorPrimary = 76;
         /**
@@ -5978,7 +5978,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:colorPrimaryDark
+          @attr name com.citypocket:colorPrimaryDark
         */
         public static final int Theme_colorPrimaryDark = 77;
         /**
@@ -5995,7 +5995,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:colorSwitchThumbNormal
+          @attr name com.citypocket:colorSwitchThumbNormal
         */
         public static final int Theme_colorSwitchThumbNormal = 83;
         /**
@@ -6007,7 +6007,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:dividerHorizontal
+          @attr name com.citypocket:dividerHorizontal
         */
         public static final int Theme_dividerHorizontal = 50;
         /**
@@ -6019,7 +6019,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:dividerVertical
+          @attr name com.citypocket:dividerVertical
         */
         public static final int Theme_dividerVertical = 49;
         /**
@@ -6031,7 +6031,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:dropDownListViewStyle
+          @attr name com.citypocket:dropDownListViewStyle
         */
         public static final int Theme_dropDownListViewStyle = 68;
         /**
@@ -6049,7 +6049,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:dropdownListPreferredItemHeight
+          @attr name com.citypocket:dropdownListPreferredItemHeight
         */
         public static final int Theme_dropdownListPreferredItemHeight = 40;
         /**
@@ -6061,7 +6061,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:editTextBackground
+          @attr name com.citypocket:editTextBackground
         */
         public static final int Theme_editTextBackground = 57;
         /**
@@ -6075,7 +6075,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:editTextColor
+          @attr name com.citypocket:editTextColor
         */
         public static final int Theme_editTextColor = 56;
         /**
@@ -6087,7 +6087,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:homeAsUpIndicator
+          @attr name com.citypocket:homeAsUpIndicator
         */
         public static final int Theme_homeAsUpIndicator = 43;
         /**
@@ -6099,7 +6099,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:listChoiceBackgroundIndicator
+          @attr name com.citypocket:listChoiceBackgroundIndicator
         */
         public static final int Theme_listChoiceBackgroundIndicator = 75;
         /**
@@ -6109,7 +6109,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.provacondatabase:listPopupWindowStyle
+          @attr name com.citypocket:listPopupWindowStyle
         */
         public static final int Theme_listPopupWindowStyle = 69;
         /**
@@ -6127,7 +6127,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:listPreferredItemHeight
+          @attr name com.citypocket:listPreferredItemHeight
         */
         public static final int Theme_listPreferredItemHeight = 63;
         /**
@@ -6145,7 +6145,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:listPreferredItemHeightLarge
+          @attr name com.citypocket:listPreferredItemHeightLarge
         */
         public static final int Theme_listPreferredItemHeightLarge = 65;
         /**
@@ -6163,7 +6163,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:listPreferredItemHeightSmall
+          @attr name com.citypocket:listPreferredItemHeightSmall
         */
         public static final int Theme_listPreferredItemHeightSmall = 64;
         /**
@@ -6181,7 +6181,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:listPreferredItemPaddingLeft
+          @attr name com.citypocket:listPreferredItemPaddingLeft
         */
         public static final int Theme_listPreferredItemPaddingLeft = 66;
         /**
@@ -6199,7 +6199,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:listPreferredItemPaddingRight
+          @attr name com.citypocket:listPreferredItemPaddingRight
         */
         public static final int Theme_listPreferredItemPaddingRight = 67;
         /**
@@ -6211,7 +6211,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:panelBackground
+          @attr name com.citypocket:panelBackground
         */
         public static final int Theme_panelBackground = 72;
         /**
@@ -6223,7 +6223,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:panelMenuListTheme
+          @attr name com.citypocket:panelMenuListTheme
         */
         public static final int Theme_panelMenuListTheme = 74;
         /**
@@ -6241,7 +6241,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:panelMenuListWidth
+          @attr name com.citypocket:panelMenuListWidth
         */
         public static final int Theme_panelMenuListWidth = 73;
         /**
@@ -6253,7 +6253,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:popupMenuStyle
+          @attr name com.citypocket:popupMenuStyle
         */
         public static final int Theme_popupMenuStyle = 54;
         /**
@@ -6265,7 +6265,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:popupWindowStyle
+          @attr name com.citypocket:popupWindowStyle
         */
         public static final int Theme_popupWindowStyle = 55;
         /**
@@ -6277,7 +6277,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:searchViewStyle
+          @attr name com.citypocket:searchViewStyle
         */
         public static final int Theme_searchViewStyle = 62;
         /**
@@ -6291,7 +6291,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:selectableItemBackground
+          @attr name com.citypocket:selectableItemBackground
         */
         public static final int Theme_selectableItemBackground = 47;
         /**
@@ -6303,7 +6303,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:selectableItemBackgroundBorderless
+          @attr name com.citypocket:selectableItemBackgroundBorderless
         */
         public static final int Theme_selectableItemBackgroundBorderless = 48;
         /**
@@ -6315,7 +6315,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:spinnerDropDownItemStyle
+          @attr name com.citypocket:spinnerDropDownItemStyle
         */
         public static final int Theme_spinnerDropDownItemStyle = 42;
         /**
@@ -6327,7 +6327,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:spinnerStyle
+          @attr name com.citypocket:spinnerStyle
         */
         public static final int Theme_spinnerStyle = 41;
         /**
@@ -6339,7 +6339,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:switchStyle
+          @attr name com.citypocket:switchStyle
         */
         public static final int Theme_switchStyle = 58;
         /**
@@ -6351,7 +6351,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:textAppearanceLargePopupMenu
+          @attr name com.citypocket:textAppearanceLargePopupMenu
         */
         public static final int Theme_textAppearanceLargePopupMenu = 37;
         /**
@@ -6363,7 +6363,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:textAppearanceListItem
+          @attr name com.citypocket:textAppearanceListItem
         */
         public static final int Theme_textAppearanceListItem = 70;
         /**
@@ -6375,7 +6375,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:textAppearanceListItemSmall
+          @attr name com.citypocket:textAppearanceListItemSmall
         */
         public static final int Theme_textAppearanceListItemSmall = 71;
         /**
@@ -6387,7 +6387,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:textAppearanceSearchResultSubtitle
+          @attr name com.citypocket:textAppearanceSearchResultSubtitle
         */
         public static final int Theme_textAppearanceSearchResultSubtitle = 60;
         /**
@@ -6399,7 +6399,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:textAppearanceSearchResultTitle
+          @attr name com.citypocket:textAppearanceSearchResultTitle
         */
         public static final int Theme_textAppearanceSearchResultTitle = 59;
         /**
@@ -6411,7 +6411,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:textAppearanceSmallPopupMenu
+          @attr name com.citypocket:textAppearanceSmallPopupMenu
         */
         public static final int Theme_textAppearanceSmallPopupMenu = 38;
         /**
@@ -6425,7 +6425,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:textColorSearchUrl
+          @attr name com.citypocket:textColorSearchUrl
         */
         public static final int Theme_textColorSearchUrl = 61;
         /**
@@ -6437,7 +6437,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:toolbarNavigationButtonStyle
+          @attr name com.citypocket:toolbarNavigationButtonStyle
         */
         public static final int Theme_toolbarNavigationButtonStyle = 53;
         /**
@@ -6449,7 +6449,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:toolbarStyle
+          @attr name com.citypocket:toolbarStyle
         */
         public static final int Theme_toolbarStyle = 52;
         /**
@@ -6466,7 +6466,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:windowActionBar
+          @attr name com.citypocket:windowActionBar
         */
         public static final int Theme_windowActionBar = 2;
         /**
@@ -6484,7 +6484,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:windowActionBarOverlay
+          @attr name com.citypocket:windowActionBarOverlay
         */
         public static final int Theme_windowActionBarOverlay = 3;
         /**
@@ -6501,7 +6501,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:windowActionModeOverlay
+          @attr name com.citypocket:windowActionModeOverlay
         */
         public static final int Theme_windowActionModeOverlay = 4;
         /**
@@ -6524,7 +6524,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:windowFixedHeightMajor
+          @attr name com.citypocket:windowFixedHeightMajor
         */
         public static final int Theme_windowFixedHeightMajor = 8;
         /**
@@ -6547,7 +6547,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:windowFixedHeightMinor
+          @attr name com.citypocket:windowFixedHeightMinor
         */
         public static final int Theme_windowFixedHeightMinor = 6;
         /**
@@ -6570,7 +6570,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:windowFixedWidthMajor
+          @attr name com.citypocket:windowFixedWidthMajor
         */
         public static final int Theme_windowFixedWidthMajor = 5;
         /**
@@ -6593,7 +6593,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:windowFixedWidthMinor
+          @attr name com.citypocket:windowFixedWidthMinor
         */
         public static final int Theme_windowFixedWidthMinor = 7;
         /** Attributes that can be used with a Toolbar.
@@ -6604,29 +6604,29 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td> Allows us to read in the minHeight attr pre-v16 </td></tr>
-           <tr><td><code>{@link #Toolbar_collapseContentDescription com.example.provacondatabase:collapseContentDescription}</code></td><td> Text to set as the content description for the collapse button.</td></tr>
-           <tr><td><code>{@link #Toolbar_collapseIcon com.example.provacondatabase:collapseIcon}</code></td><td> Icon drawable to use for the collapse button.</td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEnd com.example.provacondatabase:contentInsetEnd}</code></td><td> Minimum inset for content views within a bar.</td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetLeft com.example.provacondatabase:contentInsetLeft}</code></td><td> Minimum inset for content views within a bar.</td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetRight com.example.provacondatabase:contentInsetRight}</code></td><td> Minimum inset for content views within a bar.</td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStart com.example.provacondatabase:contentInsetStart}</code></td><td> Minimum inset for content views within a bar.</td></tr>
-           <tr><td><code>{@link #Toolbar_maxButtonHeight com.example.provacondatabase:maxButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationContentDescription com.example.provacondatabase:navigationContentDescription}</code></td><td> Text to set as the content description for the navigation button
+           <tr><td><code>{@link #Toolbar_collapseContentDescription com.citypocket:collapseContentDescription}</code></td><td> Text to set as the content description for the collapse button.</td></tr>
+           <tr><td><code>{@link #Toolbar_collapseIcon com.citypocket:collapseIcon}</code></td><td> Icon drawable to use for the collapse button.</td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEnd com.citypocket:contentInsetEnd}</code></td><td> Minimum inset for content views within a bar.</td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetLeft com.citypocket:contentInsetLeft}</code></td><td> Minimum inset for content views within a bar.</td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetRight com.citypocket:contentInsetRight}</code></td><td> Minimum inset for content views within a bar.</td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStart com.citypocket:contentInsetStart}</code></td><td> Minimum inset for content views within a bar.</td></tr>
+           <tr><td><code>{@link #Toolbar_maxButtonHeight com.citypocket:maxButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationContentDescription com.citypocket:navigationContentDescription}</code></td><td> Text to set as the content description for the navigation button
              located at the start of the toolbar.</td></tr>
-           <tr><td><code>{@link #Toolbar_navigationIcon com.example.provacondatabase:navigationIcon}</code></td><td> Icon drawable to use for the navigation button located at
+           <tr><td><code>{@link #Toolbar_navigationIcon com.citypocket:navigationIcon}</code></td><td> Icon drawable to use for the navigation button located at
              the start of the toolbar.</td></tr>
-           <tr><td><code>{@link #Toolbar_popupTheme com.example.provacondatabase:popupTheme}</code></td><td> Reference to a theme that should be used to inflate popups
+           <tr><td><code>{@link #Toolbar_popupTheme com.citypocket:popupTheme}</code></td><td> Reference to a theme that should be used to inflate popups
              shown by widgets in the toolbar.</td></tr>
-           <tr><td><code>{@link #Toolbar_subtitle com.example.provacondatabase:subtitle}</code></td><td> Specifies subtitle text used for navigationMode="normal" </td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.example.provacondatabase:subtitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_theme com.example.provacondatabase:theme}</code></td><td> Specifies a theme override for a view.</td></tr>
-           <tr><td><code>{@link #Toolbar_title com.example.provacondatabase:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginBottom com.example.provacondatabase:titleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginEnd com.example.provacondatabase:titleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginStart com.example.provacondatabase:titleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginTop com.example.provacondatabase:titleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargins com.example.provacondatabase:titleMargins}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextAppearance com.example.provacondatabase:titleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitle com.citypocket:subtitle}</code></td><td> Specifies subtitle text used for navigationMode="normal" </td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.citypocket:subtitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_theme com.citypocket:theme}</code></td><td> Specifies a theme override for a view.</td></tr>
+           <tr><td><code>{@link #Toolbar_title com.citypocket:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginBottom com.citypocket:titleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginEnd com.citypocket:titleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginStart com.citypocket:titleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginTop com.citypocket:titleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargins com.citypocket:titleMargins}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextAppearance com.citypocket:titleTextAppearance}</code></td><td></td></tr>
            </table>
            @see #Toolbar_android_gravity
            @see #Toolbar_android_minHeight
@@ -6687,7 +6687,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:collapseContentDescription
+          @attr name com.citypocket:collapseContentDescription
         */
         public static final int Toolbar_collapseContentDescription = 19;
         /**
@@ -6699,7 +6699,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:collapseIcon
+          @attr name com.citypocket:collapseIcon
         */
         public static final int Toolbar_collapseIcon = 18;
         /**
@@ -6718,7 +6718,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:contentInsetEnd
+          @attr name com.citypocket:contentInsetEnd
         */
         public static final int Toolbar_contentInsetEnd = 5;
         /**
@@ -6737,7 +6737,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:contentInsetLeft
+          @attr name com.citypocket:contentInsetLeft
         */
         public static final int Toolbar_contentInsetLeft = 6;
         /**
@@ -6756,7 +6756,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:contentInsetRight
+          @attr name com.citypocket:contentInsetRight
         */
         public static final int Toolbar_contentInsetRight = 7;
         /**
@@ -6775,7 +6775,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:contentInsetStart
+          @attr name com.citypocket:contentInsetStart
         */
         public static final int Toolbar_contentInsetStart = 4;
         /**
@@ -6791,7 +6791,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.provacondatabase:maxButtonHeight
+          @attr name com.citypocket:maxButtonHeight
         */
         public static final int Toolbar_maxButtonHeight = 16;
         /**
@@ -6808,7 +6808,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:navigationContentDescription
+          @attr name com.citypocket:navigationContentDescription
         */
         public static final int Toolbar_navigationContentDescription = 21;
         /**
@@ -6821,7 +6821,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:navigationIcon
+          @attr name com.citypocket:navigationIcon
         */
         public static final int Toolbar_navigationIcon = 20;
         /**
@@ -6834,7 +6834,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:popupTheme
+          @attr name com.citypocket:popupTheme
         */
         public static final int Toolbar_popupTheme = 8;
         /**
@@ -6850,7 +6850,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:subtitle
+          @attr name com.citypocket:subtitle
         */
         public static final int Toolbar_subtitle = 3;
         /**
@@ -6860,7 +6860,7 @@ containing a value of this type.
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.provacondatabase:subtitleTextAppearance
+          @attr name com.citypocket:subtitleTextAppearance
         */
         public static final int Toolbar_subtitleTextAppearance = 10;
         /**
@@ -6875,7 +6875,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:theme
+          @attr name com.citypocket:theme
         */
         public static final int Toolbar_theme = 17;
         /**
@@ -6889,7 +6889,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.provacondatabase:title
+          @attr name com.citypocket:title
         */
         public static final int Toolbar_title = 2;
         /**
@@ -6905,7 +6905,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.provacondatabase:titleMarginBottom
+          @attr name com.citypocket:titleMarginBottom
         */
         public static final int Toolbar_titleMarginBottom = 15;
         /**
@@ -6921,7 +6921,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.provacondatabase:titleMarginEnd
+          @attr name com.citypocket:titleMarginEnd
         */
         public static final int Toolbar_titleMarginEnd = 13;
         /**
@@ -6937,7 +6937,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.provacondatabase:titleMarginStart
+          @attr name com.citypocket:titleMarginStart
         */
         public static final int Toolbar_titleMarginStart = 12;
         /**
@@ -6953,7 +6953,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.provacondatabase:titleMarginTop
+          @attr name com.citypocket:titleMarginTop
         */
         public static final int Toolbar_titleMarginTop = 14;
         /**
@@ -6969,7 +6969,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.provacondatabase:titleMargins
+          @attr name com.citypocket:titleMargins
         */
         public static final int Toolbar_titleMargins = 11;
         /**
@@ -6979,7 +6979,7 @@ containing a value of this type.
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.provacondatabase:titleTextAppearance
+          @attr name com.citypocket:titleTextAppearance
         */
         public static final int Toolbar_titleTextAppearance = 9;
         /** Attributes that can be used with a View.
@@ -6989,8 +6989,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td> Boolean that controls whether a view can take focus.</td></tr>
-           <tr><td><code>{@link #View_paddingEnd com.example.provacondatabase:paddingEnd}</code></td><td> Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}.</td></tr>
-           <tr><td><code>{@link #View_paddingStart com.example.provacondatabase:paddingStart}</code></td><td> Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}.</td></tr>
+           <tr><td><code>{@link #View_paddingEnd com.citypocket:paddingEnd}</code></td><td> Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}.</td></tr>
+           <tr><td><code>{@link #View_paddingStart com.citypocket:paddingStart}</code></td><td> Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}.</td></tr>
            </table>
            @see #View_android_focusable
            @see #View_paddingEnd
@@ -7028,7 +7028,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:paddingEnd
+          @attr name com.citypocket:paddingEnd
         */
         public static final int View_paddingEnd = 2;
         /**
@@ -7046,7 +7046,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.example.provacondatabase:paddingStart
+          @attr name com.citypocket:paddingStart
         */
         public static final int View_paddingStart = 1;
         /** Attributes that can be used with a ViewStubCompat.

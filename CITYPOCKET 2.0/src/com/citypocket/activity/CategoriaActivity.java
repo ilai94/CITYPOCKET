@@ -13,7 +13,6 @@ package com.citypocket.activity;
 
 
 import com.citypocket.R;
-import com.citypocket.collegamento_database.UserDataAsync;
 import com.citypocket.interazione.DataRecoveryCategoria;
 
 import android.app.Activity;
@@ -35,9 +34,9 @@ public class CategoriaActivity  extends Activity{
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_categoria);
-		getUserData(); //Recupero dei dati utenti
 		listview1 = (ListView)findViewById(R.id.ListaCategoria);
 		DataRecoveryCategoria.Data(this).execute();
+		listview1.setClickable(true);
 	
   }
 
@@ -65,12 +64,7 @@ public class CategoriaActivity  extends Activity{
 		startActivity(new Intent("android.intent.action.RisultatoActivity"));
 	}
 	
-	private void getUserData()
-	{
-		UserDataAsync u = new UserDataAsync(this);
-		u.execute();
-		
-	}
+	
 	
 	
 }
