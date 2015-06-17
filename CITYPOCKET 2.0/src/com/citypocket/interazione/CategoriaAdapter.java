@@ -1,3 +1,12 @@
+/**
+ * Autori : Merola Sabrina, Pafundi Vincenzo, Russo Debora, Tecchia Elisabetta
+ * Esame : Programmazione I
+ * Facoltà : Ingegneria Informatica Federico II Napoli
+ * Data : 19/06/2015
+ * Nome File: CITYPOCKET/CategoriaAdapter.java
+ * Versione : 2.0
+ */
+
 package com.citypocket.interazione;
 //classe scheletro per la row della categoria
 
@@ -7,10 +16,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-
 import android.widget.TextView;
 
-import com.example.provacondatabase.R;
+import com.citypocket.R;
 
 
 

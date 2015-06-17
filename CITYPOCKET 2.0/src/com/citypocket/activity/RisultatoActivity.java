@@ -2,46 +2,42 @@
  * Autori : Merola Sabrina, Pafundi Vincenzo, Russo Debora, Tecchia Elisabetta
  * Esame : Programmazione I
  * Facoltà : Ingegneria Informatica Federico II Napoli
- * Data : 21/05/2015
+ * Data : 19/06/2015
  * Nome File: CITYPOCKET/RisultatoActivity.java
- * Versione : 1.0
+ * Versione : 2.0
  */
-
 
 
 
 package com.citypocket.activity;
 
-import java.util.ArrayList;
 
-import com.example.provacondatabase.R;
+
+import com.citypocket.R;
+import com.citypocket.collegamento_database.UserDataAsync;
+import com.citypocket.interazione.DataRecoveryRegione;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.ArrayAdapter;
-import android.widget.ListAdapter;
 import android.widget.ListView;
 
 public class RisultatoActivity extends ActionBarActivity {
 
 	
+	public static final String username = "b63af9d70c3f90";
+	public static final String password = "e242e43a";
+	public static ListView listview1;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_risultato);
-		String[] Regioni= new String[] {"Nome_app","Nome_app", "Nome_app","Nome_app","Nome_app","Nome_app","Nome_app","Nome_app","Nome_app","...",};
-		ArrayList <String> listp = new ArrayList<String>();  
-        for (int i = 0; i < Regioni.length; ++i) {  
-             listp.add(Regioni[i]);  
-		
-		ListAdapter adapter= new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,Regioni);	
-		final ListView lv= (ListView) findViewById(R.id.ListaRisultato);
-		lv.setAdapter(adapter);
-        }
-	}
+		getUserData(); //Recupero dei dati utente
+		listview1 = (ListView)findViewById(R.id.ListaRisultato);
+		DataRecoveryRegione.Data(this).execute();	
+  }
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
@@ -60,6 +56,12 @@ public class RisultatoActivity extends ActionBarActivity {
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
+	}
+	private void getUserData()
+	{
+		UserDataAsync u = new UserDataAsync(this);
+		u.execute();
+		
 	}
 
 }

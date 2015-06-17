@@ -2,11 +2,10 @@
  * Autori : Merola Sabrina, Pafundi Vincenzo, Russo Debora, Tecchia Elisabetta
  * Esame : Programmazione I
  * Facoltà : Ingegneria Informatica Federico II Napoli
- * Data : 21/05/2015
+ * Data : 19/06/2015
  * Nome File: CITYPOCKET/MainActivity.java
- * Versione : 1.0
+ * Versione : 2.0
  */
-
 
 
 
@@ -17,7 +16,7 @@ package com.citypocket.activity;
 
 
 
-import com.example.provacondatabase.R;
+import com.citypocket.R;
 
 import android.support.v7.app.ActionBarActivity;
 import android.content.Intent;

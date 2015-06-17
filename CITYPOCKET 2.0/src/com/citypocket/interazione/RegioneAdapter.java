@@ -1,3 +1,12 @@
+/**
+ * Autori : Merola Sabrina, Pafundi Vincenzo, Russo Debora, Tecchia Elisabetta
+ * Esame : Programmazione I
+ * Facoltà : Ingegneria Informatica Federico II Napoli
+ * Data : 19/06/2015
+ * Nome File: CITYPOCKET/RegioneAdapter.java
+ * Versione : 2.0
+ */
+
 package com.citypocket.interazione;
 //classe scheletro per la row dell'utente
 
@@ -7,10 +16,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-
 import android.widget.TextView;
 
-import com.example.provacondatabase.R;
+import com.citypocket.R;
 
 
 
@@ -34,7 +42,7 @@ public class RegioneAdapter extends ArrayAdapter<Regione>{
 	public View getView(int position,View convertView,ViewGroup parent)//convert view riga attuale da creare
 	{
 		View row = convertView;//riga corrente
-		UserHolder holder = null; //variabili bottoni
+		RegioneHolder holder = null; //variabili bottoni
 
 		if(row == null) //righe inesistenti
 		{
@@ -42,7 +50,7 @@ public class RegioneAdapter extends ArrayAdapter<Regione>{
 			LayoutInflater inflater = ((Activity)context).getLayoutInflater();
 			row = inflater.inflate(layoutResourceId,null);
 			
-			holder = new UserHolder();
+			holder = new RegioneHolder();
 			holder.NomeRegione = (TextView)row.findViewById(R.id.nome_regione);
 			
 			holder.n_comuni = (TextView)row.findViewById(R.id.n_comuni);
@@ -53,7 +61,7 @@ public class RegioneAdapter extends ArrayAdapter<Regione>{
 		else
 		{
 			//riga gi� esistente..carica lo scheletro gi� inizializzato
-			holder = (UserHolder)row.getTag();//
+			holder = (RegioneHolder)row.getTag();//
 		}
 		Regione User = data[position];
 		//associa alle variabile le stringhe dei bottoni
@@ -63,7 +71,7 @@ public class RegioneAdapter extends ArrayAdapter<Regione>{
 
 	}
 
-	static class UserHolder{
+	static class RegioneHolder{
 	
 		TextView NomeRegione;
 		TextView n_comuni;

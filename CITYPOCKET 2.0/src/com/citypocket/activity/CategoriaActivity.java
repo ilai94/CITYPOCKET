@@ -2,21 +2,20 @@
  * Autori : Merola Sabrina, Pafundi Vincenzo, Russo Debora, Tecchia Elisabetta
  * Esame : Programmazione I
  * Facoltà : Ingegneria Informatica Federico II Napoli
- * Data : 21/05/2015
+ * Data : 19/06/2015
  * Nome File: CITYPOCKET/CategoriaActivity.java
- * Versione : 1.0
+ * Versione : 2.0
  */
-
-
 
 
 package com.citypocket.activity;
 
 
 
+import com.citypocket.R;
 import com.citypocket.collegamento_database.UserDataAsync;
 import com.citypocket.interazione.DataRecoveryCategoria;
-import com.example.provacondatabase.R;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -36,12 +35,9 @@ public class CategoriaActivity  extends Activity{
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_categoria);
-		 getUserData(); //Recupero dei dati utente
-			//Carica gli utenti della Community
-			
-			listview1 = (ListView)findViewById(R.id.ListaCategoria);
-			
-			DataRecoveryCategoria.Data(this).execute();
+		getUserData(); //Recupero dei dati utenti
+		listview1 = (ListView)findViewById(R.id.ListaCategoria);
+		DataRecoveryCategoria.Data(this).execute();
 	
   }
 
@@ -64,9 +60,11 @@ public class CategoriaActivity  extends Activity{
 		}
 		return super.onOptionsItemSelected(item);
 	}
+	
 	public void risultato(View view){
 		startActivity(new Intent("android.intent.action.RisultatoActivity"));
 	}
+	
 	private void getUserData()
 	{
 		UserDataAsync u = new UserDataAsync(this);

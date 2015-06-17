@@ -4,26 +4,14 @@
     android:layout_height="match_parent"
     >
 
-        <RelativeLayout
-            android:id="@+id/relativeLayout1"
-            android:layout_width="120dp"
-            android:layout_height="45dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignTop="@+id/relativeLayout2" >
-
-            <TextView
+           
+	 <TextView
                 android:id="@+id/nome_categoria"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
                 android:text="@string/nome_categoria"
                 android:textSize="15sp" />
-
-        </RelativeLayout>
-
-     
-
 </RelativeLayout>

@@ -1,3 +1,12 @@
+/**
+ * Autori : Merola Sabrina, Pafundi Vincenzo, Russo Debora, Tecchia Elisabetta
+ * Esame : Programmazione I
+ * Facoltà : Ingegneria Informatica Federico II Napoli
+ * Data : 19/06/2015
+ * Nome File: CITYPOCKET/DataRecoveryRegione.java
+ * Versione : 2.0
+ */
+
 package com.citypocket.interazione;
 
 //Classe che si occupa di recuperare in modo asincrono i dati relativi agli utenti della community
@@ -7,9 +16,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+import com.citypocket.R;
 import com.citypocket.activity.RegioneActivity;
 import com.citypocket.collegamento_database.DatabaseConnect;
-import com.example.provacondatabase.R;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -93,7 +102,6 @@ public class DataRecoveryRegione extends AsyncTask<String,Void,String> {
 		 if(Error!=0){
 			 switch (Error) {
 			 case 1 : Toast.makeText(context,"DBConnection_Error (EDIT COMMUNITY, IP_Server);",Toast.LENGTH_SHORT).show();break;
-			 case 2 : Toast.makeText(context,"ERRORE: COMMUNITY INESISTENTE!",Toast.LENGTH_SHORT).show();break;
 			 case 7 : Toast.makeText(context,"ERRORE: NON sono presenti Regioni",Toast.LENGTH_SHORT).show();break;
 			 }
 			 }
