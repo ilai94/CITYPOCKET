@@ -8,7 +8,7 @@
  */
 
 package com.citypocket.interazione;
-//classe scheletro per la row dell'utente
+//classe scheletro per la row della regione
 
 import android.app.Activity;
 import android.content.Context;
@@ -60,7 +60,7 @@ public class RegioneAdapter extends ArrayAdapter<Regione>{
 		}
 		else
 		{
-			//riga gi� esistente..carica lo scheletro gi� inizializzato
+			//riga già esistente..carica lo scheletro già inizializzato
 			holder = (RegioneHolder)row.getTag();//
 		}
 		Regione User = data[position];

@@ -8,7 +8,7 @@
  */
 
 package com.citypocket.interazione;
-//Classe Utente
+//Classe Regione
 //contenuto
 public class Regione {
 

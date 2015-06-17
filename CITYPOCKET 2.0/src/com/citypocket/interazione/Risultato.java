@@ -8,7 +8,7 @@
  */
 
 package com.citypocket.interazione;
-//Classe Categoria
+//Classe Risultato
 //contenuto
 public class Risultato {
 

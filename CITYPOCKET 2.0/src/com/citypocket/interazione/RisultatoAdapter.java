@@ -8,7 +8,7 @@
  */
 
 package com.citypocket.interazione;
-//classe scheletro per la row dell'utente
+//classe scheletro per la row del risultato
 
 import android.app.Activity;
 import android.content.Context;
@@ -26,7 +26,7 @@ import com.citypocket.R;
 public class RisultatoAdapter extends ArrayAdapter<Risultato>{
 
 	Context context; //variabile che rappresenta l'activity dell'oggetto
-	int layoutResourceId;//serve per adattare la dimensione della riga ala suo contenuto
+	int layoutResourceId;//serve per adattare la dimensione della riga al suo contenuto
 	Risultato data[] = null; //data array di bottoni
 
 	public RisultatoAdapter(Context context,int layoutResourceId,Risultato data[])
@@ -56,7 +56,7 @@ public class RisultatoAdapter extends ArrayAdapter<Risultato>{
 		}
 		else
 		{
-			//riga gi� esistente..carica lo scheletro gi� inizializzato
+			//riga già esistente..carica lo scheletro già inizializzato
 			holder = (RisultatoHolder)row.getTag();//
 		}
 		Risultato User = data[position];

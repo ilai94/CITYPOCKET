@@ -8,7 +8,7 @@
  */
 package com.citypocket.interazione;
 
-//Classe che si occupa di recuperare in modo asincrono i dati relativi agli utenti della community
+//Classe che si occupa di recuperare in modo asincrono i dati relativi alle categorie
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -87,7 +87,7 @@ public class DataRecoveryCategoria extends AsyncTask<String,Void,String> {
 		 adapter = new CategoriaAdapter(context,R.layout.my_row_categoria,Categoria_data);
 		 CategoriaActivity.listview1.setAdapter(adapter);
 		 
-		 myProgress.dismiss(); //toglie il progressDialog poich� la task � stata eseguita
+		 myProgress.dismiss(); //toglie il progressDialog poichè la task è stata eseguita
 	     
 		 //Messagio di Android in caso di errore o meno
 		 if(Error!=0){switch (Error) {

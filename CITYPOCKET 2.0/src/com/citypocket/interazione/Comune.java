@@ -8,15 +8,11 @@
  */
 
 package com.citypocket.interazione;
-//Classe Utente
 //contenuto
 public class Comune {
 
 	String Comune;
 
-	
-	
-	
 	public Comune()
 	{
 		super();

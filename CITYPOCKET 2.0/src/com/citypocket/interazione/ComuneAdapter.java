@@ -8,7 +8,7 @@
  */
 
 package com.citypocket.interazione;
-//classe scheletro per la row della categoria
+//classe scheletro per la row del comune
 
 import android.app.Activity;
 import android.content.Context;

@@ -9,7 +9,7 @@
 
 package com.citypocket.interazione;
 
-//Classe che si occupa di recuperare in modo asincrono i dati relativi agli utenti della community
+//Classe che si occupa di recuperare in modo asincrono i dati relativi alle regioni
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -96,7 +96,7 @@ public class DataRecoveryRegione extends AsyncTask<String,Void,String> {
 		 adapter = new RegioneAdapter(context,R.layout.my_row_regione,Regione_data);
 		 RegioneActivity.listview1.setAdapter(adapter);
 		 
-		 myProgress.dismiss(); //toglie il progressDialog poich� la task � stata eseguita
+		 myProgress.dismiss(); //toglie il progressDialog poichè la task è stata eseguita
 	     
 		 //Messagio di Android in caso di errore o meno
 		 if(Error!=0){
@@ -133,7 +133,7 @@ public class DataRecoveryRegione extends AsyncTask<String,Void,String> {
 	 stmt.close();
 	 Regioni.close();}
 	 catch(SQLException e)
-	 {System.out.println("Error retrieving Users!");
+	 {System.out.println("Error retrieving Regioni!");
 	 DatabaseConnect.closeConnection(connection);}
 	 }
 	 
@@ -158,7 +158,7 @@ public class DataRecoveryRegione extends AsyncTask<String,Void,String> {
 	 rs.close();
 	 return nUsers;}
 	 catch(SQLException e)
-	 {System.out.println("Error retrieving Number of Users!");
+	 {System.out.println("Error retrieving Number of Regioni!");
 	 DatabaseConnect.closeConnection(connection);}
 	 return Error=7;
 	 }

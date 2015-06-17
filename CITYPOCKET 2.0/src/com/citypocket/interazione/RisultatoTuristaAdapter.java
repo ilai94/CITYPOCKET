@@ -8,7 +8,7 @@
  */
 
 package com.citypocket.interazione;
-//classe per la row del risultato
+//classe per la row del risultato turista
 
 import android.app.Activity;
 import android.content.Context;
