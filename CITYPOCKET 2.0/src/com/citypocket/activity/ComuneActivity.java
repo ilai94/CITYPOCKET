@@ -12,7 +12,6 @@ package com.citypocket.activity;
 
 
 import com.citypocket.R;
-
 import com.citypocket.interazione.DataRecoveryRegione;
 
 import android.app.Activity;
@@ -21,22 +20,31 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.AdapterView.OnItemClickListener;
 
 
 public class ComuneActivity  extends Activity{
 	
 	public static final String username = "b63af9d70c3f90";
 	public static final String password = "e242e43a";
-	public static ListView listview1;
+	public static ListView listview2;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_comune);
-		
-		listview1 = (ListView)findViewById(R.id.ListaComuni);
+		listview2 = (ListView)findViewById(R.id.ListaComuni);
 		DataRecoveryRegione.Data(this).execute();	
+		listview2.setClickable(true);
+		listview2.setOnItemClickListener(new OnItemClickListener() {
+			  @Override
+			  public void onItemClick(AdapterView<?> parent, View view,
+			    int position, long id) {
+				startActivity(new Intent("android.intent.action.TuristaActivity"));
+			  }
+			}); 
   }
 	
 	

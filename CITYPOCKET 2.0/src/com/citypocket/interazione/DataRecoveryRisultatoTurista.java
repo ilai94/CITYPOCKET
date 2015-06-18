@@ -94,7 +94,7 @@ public class DataRecoveryRisultatoTurista extends AsyncTask<String,Void,String> 
 	 protected void onPostExecute(String result) //istruzioni da eseguire dopo doInBackground
 	 {   
 		 adapter = new RisultatoTuristaAdapter(context,R.layout.my_row_risultato_turista,RisultatiTuristi_data);
-		 RisultatoTuristaActivity.listview1.setAdapter(adapter);
+		 RisultatoTuristaActivity.listview5.setAdapter(adapter);
 		 
 		 myProgress.dismiss(); //toglie il progressDialog poichè la task è stata eseguita
 	     

@@ -21,22 +21,31 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.AdapterView.OnItemClickListener;
 
 
 public class CategoriaActivity  extends Activity{
 	
 	public static final String username = "b63af9d70c3f90";
 	public static final String password = "e242e43a";
-	public static ListView listview1;
+	public static ListView listview4;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_categoria);
-		listview1 = (ListView)findViewById(R.id.ListaCategoria);
+		listview4 = (ListView)findViewById(R.id.ListaCategoria);
 		DataRecoveryCategoria.Data(this).execute();
-		listview1.setClickable(true);
+		listview4.setClickable(true);
+		listview4.setOnItemClickListener(new OnItemClickListener() {
+			  @Override
+			  public void onItemClick(AdapterView<?> parent, View view,
+			    int position, long id) {
+				startActivity(new Intent("android.intent.action.RisultatoActivity"));
+			  }
+			}); 
 	
   }
 

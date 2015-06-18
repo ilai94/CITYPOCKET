@@ -85,7 +85,7 @@ public class DataRecoveryCategoria extends AsyncTask<String,Void,String> {
 	 protected void onPostExecute(String result) //istruzioni da eseguire dopo doInBackground
 	 {   
 		 adapter = new CategoriaAdapter(context,R.layout.my_row_categoria,Categoria_data);
-		 CategoriaActivity.listview1.setAdapter(adapter);
+		 CategoriaActivity.listview4.setAdapter(adapter);
 		 
 		 myProgress.dismiss(); //toglie il progressDialog poichè la task è stata eseguita
 	     

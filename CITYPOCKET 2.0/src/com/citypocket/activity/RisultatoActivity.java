@@ -27,13 +27,13 @@ public class RisultatoActivity extends ActionBarActivity {
 	
 	public static final String username = "b63af9d70c3f90";
 	public static final String password = "e242e43a";
-	public static ListView listview1;
+	public static ListView listview3;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_risultato);
-		listview1 = (ListView)findViewById(R.id.ListaRisultato);
+		listview3 = (ListView)findViewById(R.id.ListaRisultato);
 		DataRecoveryRegione.Data(this).execute();	
   }
 

@@ -85,7 +85,7 @@ public class DataRecoveryComune extends AsyncTask<String,Void,String> {
 	 protected void onPostExecute(String result) //istruzioni da eseguire dopo doInBackground
 	 {   
 		 adapter = new ComuneAdapter(context,R.layout.my_row_comune,Comune_data);
-		 ComuneActivity.listview1.setAdapter(adapter);
+		 ComuneActivity.listview2.setAdapter(adapter);
 		 
 		 myProgress.dismiss(); //toglie il progressDialog poichè la task è stata eseguita
 	     
