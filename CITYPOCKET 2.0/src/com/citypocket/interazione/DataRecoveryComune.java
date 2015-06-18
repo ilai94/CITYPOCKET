@@ -92,9 +92,9 @@ public class DataRecoveryComune extends AsyncTask<String,Void,String> {
 		 //Messagio di Android in caso di errore o meno
 		 if(Error!=0){switch (Error) {
 		 case 1 : Toast.makeText(context,"DBConnection_Error (EDIT COMMUNITY, IP_Server);",Toast.LENGTH_SHORT).show();break;
-		 case 7 : Toast.makeText(context,"ERRORE: NON sono presenti Comune!",Toast.LENGTH_SHORT).show();break;
+		 case 7 : Toast.makeText(context,"ERRORE: NON sono presenti Comuni!",Toast.LENGTH_SHORT).show();break;
 		 }}
-		 else Toast.makeText(context,"Caricamento Comune avvenuto con SUCCESSO!",Toast.LENGTH_SHORT).show();
+		 else Toast.makeText(context,"Caricamento Comuni avvenuto con SUCCESSO!",Toast.LENGTH_SHORT).show();
 	        	 
 	  }
 	 

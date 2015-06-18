@@ -19,7 +19,11 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.AdapterView.OnItemClickListener;
+
+
 
 
 public class RegioneActivity  extends Activity{
@@ -34,6 +38,16 @@ public class RegioneActivity  extends Activity{
 		setContentView(R.layout.activity_regione);
 		listview1 = (ListView)findViewById(R.id.ListaRegioni);
 		DataRecoveryRegione.Data(this).execute();
+		listview1.setClickable(true);
+		
+		listview1.setOnItemClickListener(new OnItemClickListener() {
+			  @Override
+			  public void onItemClick(AdapterView<?> parent, View view,
+			    int position, long id) {
+				startActivity(new Intent("android.intent.action.ComuneActivity"));
+			  }
+			}); 
+
   }
 
 
